@@ -9,6 +9,7 @@
 
 baseurl: /uni
 exclude: ['README.md', 'Gemfile']
+permalink: pretty
 
 # Set the Sass partials directory, as we're using @imports
 sass:

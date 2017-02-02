@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<h1 class="bahiana">Tramas</h1>
+
+<div class="home-post">
+  <div class="controls">
+    <button type="button" class="ui button compact black" data-filter="all">
+      Todo
+    </button>
+    <button type="button" class="ui button compact green" data-filter=".categoria-naturaleza">Naturaleza</button>
+    <button type="button" class="ui button compact blue" data-filter=".categoria-ciencia">Ciencia</button>
+    <button type="button" class="ui button compact red" data-filter=".categoria-psiconautica">Psiconautica</button>
+    <button type="button" class="ui button compact yellow" data-filter=".categoria-espiritualidad">Espiritualidad</button>
+    <button type="button" class="ui button compact orange" data-filter=".categoria-contracultura">Contracultura</button>
+    <button type="button" class="ui button compact purple" data-filter=".categoria-politica">Politica</button>
+    <button type="button" class="ui button compact" data-sort="random">Arbitrario</button>
+  </div>
+
+  <div class="container">
+    {% for post in site.posts %}
+      <div class="item mix categoria-{{post.category}}">
+        <div class="content">
+          <h3 class="bahiana">
+            {{post.category}} / {{post.type}}
+          </h3>
+          <i class="duration">{{post.duration}}</i>
+          <a href="{{site.baseurl}}{{post.url}}" class="header">{{post.title}}</a>
+
+          <div class="description">
+            {{post.meta}}
+          </div>
+
+        </div>
+      </div>
+    {%endfor %}
+  </div>
+</div>

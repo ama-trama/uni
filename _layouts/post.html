@@ -18,3 +18,34 @@ layout: default
 	</article>
 </section>
 
+
+<div class="home-post">
+  <div class="container" style="justify-content: center;">
+  {% if page.category == 'espiritualidad' %}
+ 	<h2 class="bahiana" style="width: 100%; text-align: center;">espiritualidad</h2>
+ 	{% include category-list.html category='espiritualidad' %}
+  {% endif %}
+  {% if page.category == 'contracultura' %}
+  	<h2 class="bahiana" style="width: 100%; text-align: center;">contracultura</h2>
+  	{% include category-list.html category='contracultura' %}
+  {% endif %}
+  {% if page.category == 'psiconautica' %}
+  	<h2 class="bahiana" style="width: 100%; text-align: center;">psiconautica</h2>
+  	{% include category-list.html category='psiconautica' %}
+  {% endif %}
+  {% if page.category == 'politica' %}
+  	<h2 class="bahiana" style="width: 100%; text-align: center;">politica</h2>
+  	{% include category-list.html category='politica' %}
+  {% endif %}
+  {% if page.category == 'ciencia' %}
+ 	<h2 class="bahiana" style="width: 100%; text-align: center;">ciencia</h2>
+ 	{% include category-list.html category='ciencia' %}
+  {% endif %}
+  {% if page.category == 'naturaleza' %}
+  	<h2 class="bahiana" style="width: 100%; text-align: center;">naturaleza</h2>
+  	{% include category-list.html category='naturaleza' %}
+  {% endif %}
+  </div>
+</div>
+
+

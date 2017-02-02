@@ -9,4 +9,9 @@ duration: 25min
 tags: [ largo, entrevista, Krishnamurti]
 ---
 
-<iframe width="720" height="480" src="https://www.youtube.com/embed/42ev027BVUU" frameborder="0" allowfullscreen></iframe>
+<div class="video">
+  <div class="video-wrapper">
+	<iframe src="https://www.youtube.com/embed/B8__nqRj49U" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+

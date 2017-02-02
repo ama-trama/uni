@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<link rel="stylesheet" href="{{site.baseurl}}/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>America se trama</title>
 	<script type="text/javascript" src="{{ site.baseurl }}/js/jquery.min.js"></script>
 	<script type="text/javascript" src="{{ site.baseurl }}/js/mixitup.js"></script>
@@ -13,10 +14,12 @@
 <div class="top-bar">
 	{% include logo.html %}
 	<nav>
-		<a href="">Articulos</a>	
-		<a href="">Colecciones</a>	
-		<a href="">Tramas</a>
+    <a href="/uni/tramas/">Tramas</a>
 	</nav>
+	<button id="btnFullscreen" type="button" class="ui button icon circular basic">
+	Pantalla completa
+	<i class="fa fa-expand"></i>
+	</button>
 	<!-- Place this tag where you want the button to render. -->
 	<div class="github-ama">
 		<span>
@@ -26,7 +29,11 @@
 	</div>
 </div>
 
+
+
+
 <div class="main-container">
+
 	{{content}} 
 </div>
 
@@ -37,6 +44,43 @@
 
         <!-- Place this tag in your head or just before your close body tag. -->
         <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+
+<script>
+function toggleFullscreen(elem) {
+  elem = elem || document.documentElement;
+  if (!document.fullscreenElement && !document.mozFullScreenElement &&
+    !document.webkitFullscreenElement && !document.msFullscreenElement) {
+    if (elem.requestFullscreen) {
+      elem.requestFullscreen();
+    } else if (elem.msRequestFullscreen) {
+      elem.msRequestFullscreen();
+    } else if (elem.mozRequestFullScreen) {
+      elem.mozRequestFullScreen();
+    } else if (elem.webkitRequestFullscreen) {
+      elem.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
+    }
+  } else {
+    if (document.exitFullscreen) {
+      document.exitFullscreen();
+    } else if (document.msExitFullscreen) {
+      document.msExitFullscreen();
+    } else if (document.mozCancelFullScreen) {
+      document.mozCancelFullScreen();
+    } else if (document.webkitExitFullscreen) {
+      document.webkitExitFullscreen();
+    }
+  }
+}
+
+document.getElementById('btnFullscreen').addEventListener('click', function() {
+  toggleFullscreen();
+});
+
+document.getElementById('exampleImage').addEventListener('click', function() {
+  toggleFullscreen(this);
+});
+</script>
 
 </body>
 </html>
