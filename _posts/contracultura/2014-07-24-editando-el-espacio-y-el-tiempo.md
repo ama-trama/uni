@@ -1,7 +1,7 @@
 ---
 layout: post
 icon: youtube play
-title: Editando el espacio y el tiempo
+title: Satoshi Kon - Editando el espacio y el tiempo
 meta: 
 category: contracultura
 type: videoesfera

@@ -85,6 +85,33 @@
 	}
 }
 
+.category-page {
+	width: 100%;
+	padding-left: 270px;
+}
+
+aside {
+	position: fixed;
+	left: 0;
+	background: #f9f9f9;
+	width: 250px;
+	top: 60px;
+	bottom: 0;
+
+	.menu {
+		padding-top: 20px !important;
+		width: 100% !important;
+		height: 100%;
+
+		a {
+			font-family: $headerFont;
+			text-transform: uppercase !important;
+			font-weight: 600;
+			font-size: 16px;
+		}
+	}
+}
+
 .home-post {
 
 
@@ -132,10 +159,8 @@
 
 	h3 {
 		display: block;
-		font-size: 25px;
-		margin-bottom: 6px;
-		//border-top: 3px solid;
-		padding-top: 4px;
+		font-size: 15px;
+		margin-bottom: 10px;
 	}
 
 	.description {

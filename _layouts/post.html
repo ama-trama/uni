@@ -1,6 +1,17 @@
 ---
 layout: default
 ---
+<div class="category-page">
+<aside>
+  <div class="ui secondary vertical pointing menu">
+  <a class="item" href="/uni/espiritualidad/">espiritualidad</a>
+  <a class="item" href="/uni/contracultura/">contracultura</a>
+  <a class="item" href="/uni/psiconautica/">psiconautica</a>
+  <a class="item" href="/uni/politica/">politica</a>
+  <a class="item" href="/uni/ciencia/">ciencia</a>
+  <a class="item" href="/uni/naturaleza/">naturaleza</a>
+  </div>
+</aside>
 
 <section class="post categoria-{{page.categories}}">
 	<div class="page-meta" style="text-align: center; margin-bottom: 15px;">
@@ -12,40 +23,43 @@ layout: default
 		</div>
 	</div>
 
-	<h1 style="text-align: center; margin-bottom: 25px;">{{page.title}}</h1>
+	<h3 class="mono-space" style="text-align: center; margin-bottom: 25px;">{{page.title}}</h3>
 	<article>
 		{{content}}
 	</article>
 </section>
 
-
 <div class="home-post">
+
+
+
   <div class="container" style="justify-content: center;">
   {% if page.category == 'espiritualidad' %}
- 	<h2 class="bahiana" style="width: 100%; text-align: center;">espiritualidad</h2>
+ 	<h2 class="mono-space" style="width: 100%; text-align: center;">trama espiritualidad</h2>
  	{% include category-list.html category='espiritualidad' %}
   {% endif %}
   {% if page.category == 'contracultura' %}
-  	<h2 class="bahiana" style="width: 100%; text-align: center;">contracultura</h2>
+  	<h2 class="mono-space" style="width: 100%; text-align: center;">trama contracultural</h2>
   	{% include category-list.html category='contracultura' %}
   {% endif %}
   {% if page.category == 'psiconautica' %}
-  	<h2 class="bahiana" style="width: 100%; text-align: center;">psiconautica</h2>
+  	<h2 class="mono-space" style="width: 100%; text-align: center;">trama psiconautica</h2>
   	{% include category-list.html category='psiconautica' %}
   {% endif %}
   {% if page.category == 'politica' %}
-  	<h2 class="bahiana" style="width: 100%; text-align: center;">politica</h2>
+  	<h2 class="mono-space" style="width: 100%; text-align: center;">trama politica</h2>
   	{% include category-list.html category='politica' %}
   {% endif %}
   {% if page.category == 'ciencia' %}
- 	<h2 class="bahiana" style="width: 100%; text-align: center;">ciencia</h2>
+ 	<h2 class="mono-space" style="width: 100%; text-align: center;">trama cientifica</h2>
  	{% include category-list.html category='ciencia' %}
   {% endif %}
   {% if page.category == 'naturaleza' %}
-  	<h2 class="bahiana" style="width: 100%; text-align: center;">naturaleza</h2>
+  	<h2 class="mono-space" style="width: 100%; text-align: center;">trama natural</h2>
   	{% include category-list.html category='naturaleza' %}
   {% endif %}
   </div>
+</div>
 </div>
 
 
