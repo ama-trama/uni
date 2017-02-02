@@ -1,0 +1,347 @@
+@import 'plugins/semantic-ui/semantic-ui';
+@import 'plugins/bourbon/bourbon';
+@import 'plugins/neat/neat';
+
+@import 'base/font-face';
+@import 'base/scaffold';
+@import 'base/variables';
+
+.top-bar {
+	position: fixed;
+	height: 60px;
+	background: #fff;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	z-index: 2;
+	padding: 0 0 0 15px;
+	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+
+	nav {
+		flex: 1;
+		padding: 0 35px;
+
+		a {
+			font-family: $headerFont;
+			padding: 0 15px;
+			color: #333;
+			font-weight: 600;
+			text-transform: uppercase;
+			font-size: 15px;
+			letter-spacing: 1px;
+		}
+	}
+
+	.github-ama {
+		background: #f9f8f7;
+		height: 60px;
+		display: flex;
+		align-items: center;
+		padding: 0 10px 0 33px;
+
+		span {
+			font-family: $headerFont;
+			position: relative;
+			top: -2px;
+			right: 11px;
+			font-weight: 600;
+		}
+	}
+}
+
+.main-container {
+	padding: 80px 1em 0;
+	//max-width: 1080px;
+	margin: 0 auto;
+}
+
+.logo {
+	font-size: 50px;
+
+	svg {
+		height: 1em;
+		width: 1em;
+	}
+
+	span {
+		position: relative;
+		top: -7px;
+		left: -5px;
+		color: #333;
+	}
+}
+
+.home-post {
+
+
+	.item {
+		width: 31%;
+		margin: 1% 1% 1% 0;
+
+
+		@include media($ipad) {
+			width: 100%;
+		}
+
+		.content {
+			padding: 0 1em 1em 1em;
+			-webkit-transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
+			-moz-transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
+			transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
+			height: 100%;
+
+			&:hover {
+				background: #f9f8f7;
+			}
+		}
+
+
+
+	}
+
+	a {
+		color: inherit;
+		opacity: 0.9;
+
+		&:hover {
+			opacity: 1;
+		}
+	}
+
+	h3 {
+		display: block;
+		font-size: 25px;
+		margin-bottom: 6px;
+		//border-top: 3px solid;
+		padding-top: 4px;
+	}
+
+	.description {
+		color: #333;
+		margin: 10px 0;
+	}
+
+	.header {
+		font-family: $headerFont;
+		font-size: 20px;
+	}
+
+	span {
+		color: #333;
+		font-family: $headerFont;
+	}
+}
+
+.video-wrapper {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%; // For ratio 16:9. 75% if ratio is 4:3
+  position: relative;
+
+  embed,
+  object,
+  iframe {
+    @include position(absolute, 0 null null 0);
+    @include size(100%);
+  }
+}
+
+.post {
+	max-width: 740px;
+	margin: 0 auto 3em;
+
+	p {
+		font-weight: 400;
+		font-style: normal;
+		font-size: 21px;
+		line-height: 1.58;
+		letter-spacing: -.003em;
+		color: #333;
+	}
+}
+
+.categoria-espiritualidad {
+	color: #efd510;
+}
+.categoria-contracultura {
+	color: #f2910a;
+}
+.categoria-psiconautica {
+	color: #e84545;
+}
+.categoria-politica {
+	color: #951556;
+}
+.categoria-ciencia {
+	color: #283996;
+}
+.categoria-naturaleza {
+	color: #25a55f;
+}
+
+
+
+
+
+/* Controls
+---------------------------------------------------------------------- */
+
+.controls {
+    padding: 0;
+    //background: #333;
+    //font-size: 0.1px;
+
+    button {
+    	opacity: 0.8;
+
+    	&.mixitup-control-active {
+    		opacity: 1;
+    	}
+    }
+}
+
+.control {
+    position: relative;
+    display: inline-block;
+    width: 2.7rem;
+    height: 2.7rem;
+    //background: #444;
+    cursor: pointer;
+    //font-size: 0.1px;
+    color: white;
+    transition: background 150ms;
+}
+
+.control:hover {
+    background: #3f3f3f;
+}
+
+.control[data-filter]:after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: calc(50% - 6px);
+    left: calc(50% - 6px);
+    border: 2px solid currentColor;
+    border-radius: 2px;
+    background: currentColor;
+    transition: background-color 150ms, border-color 150ms;
+}
+
+.control[data-sort]:after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid;
+    border-left: 2px solid;
+    top: calc(50% - 6px);
+    left: calc(50% - 6px);
+    transform:  translateY(1px) rotate(45deg);
+}
+
+.control[data-sort*=":desc"]:after {
+    transform:  translateY(-4px) rotate(-135deg);
+}
+
+.mixitup-control-active {
+    background: #393939;
+}
+
+.mixitup-control-active[data-filter]:after {
+    background: transparent;
+}
+
+/* Container
+---------------------------------------------------------------------- */
+
+.container {
+    padding: 1rem 0;
+    //text-align: justify;
+    //font-size: 0.1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.container:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+/* Target Elements
+---------------------------------------------------------------------- */
+
+.mix,
+.gap {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.mix {
+    background: #fff;
+    border-top: .5rem solid currentColor;
+    border-radius: 2px;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.mix:before {
+	content: '';
+	display: block;
+	padding-top: 10px;
+}
+
+.mix.green {
+    color: #91e6c7;
+}
+
+.mix.pink {
+    color: #d595aa;
+}
+
+.mix.blue {
+    color: #5ecdde;
+}
+
+/* Grid Breakpoints
+---------------------------------------------------------------------- */
+
+/* 2 Columns */
+
+.mix,
+.gap {
+    width: calc(100%/2 - (((2 - 1) * 1rem) / 2));
+}
+
+/* 3 Columns */
+
+@media screen and (min-width: 541px) {
+    .mix,
+    .gap {
+        width: calc(100%/3 - (((3 - 1) * 1rem) / 3));
+    }
+}
+
+/* 4 Columns */
+
+@media screen and (min-width: 961px) {
+    .mix,
+    .gap {
+        width: calc(100%/4 - (((4 - 1) * 1rem) / 4));
+    }
+}
+
+/* 5 Columns */
+
+@media screen and (min-width: 1281px) {
+    .mix,
+    .gap {
+        width: calc(100%/5 - (((5 - 1) * 1rem) / 5));
+    }
+}
+
+

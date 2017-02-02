@@ -5,12 +5,38 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<link rel="stylesheet" href="{{site.baseurl}}/style.css">
 	<title>America se trama</title>
+	<script type="text/javascript" src="{{ site.baseurl }}/js/jquery.min.js"></script>
+	<script type="text/javascript" src="{{ site.baseurl }}/js/mixitup.js"></script>
 </head>
 <body>
+
+<div class="top-bar">
+	{% include logo.html %}
+	<nav>
+		<a href="">Articulos</a>	
+		<a href="">Colecciones</a>	
+		<a href="">Tramas</a>
+	</nav>
+	<!-- Place this tag where you want the button to render. -->
+	<div class="github-ama">
+		<span>
+			Proyecto Libre
+		</span>
+		<a class="github-button" href="https://github.com/ama-trama/uni" data-count-href="/ama-trama/uni/stargazers" data-count-api="/repos/ama-trama/uni#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star ama-trama/uni on GitHub">Star</a>
+	</div>
+</div>
 
 <div class="main-container">
 	{{content}} 
 </div>
+
+        <script>
+            var containerEl = document.querySelector('.container');
+            var mixer = mixitup(containerEl);
+        </script>
+
+        <!-- Place this tag in your head or just before your close body tag. -->
+        <script async defer src="https://buttons.github.io/buttons.js"></script>
 
 </body>
 </html>
