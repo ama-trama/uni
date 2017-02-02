@@ -16,8 +16,18 @@ layout: default
   </div>
 </aside>
 
+<div class="controls">
+<button type="button" class="ui button compact purple" data-filter="all">
+  Todo ({{ site.categories.politica | size }})
+</button>
+  <button type="button" class="ui button compact purple" data-filter=".trama-videoesfera">Videoesfera</button>
+  <button type="button" class="ui button compact purple" data-filter=".trama-articulo">Articulos</button>
+  <button type="button" class="ui button compact" data-sort="random">Arbitrario</button>
+</div>
+
 <div class="home-post">
   <div class="container">
+    <div class="fail-message"><span>Estos filtros no dieron resultado.</span></div>
    {% include category-list.html category='politica' %}
   </div>
 </div>

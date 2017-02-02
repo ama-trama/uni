@@ -2,38 +2,41 @@
 layout: default
 ---
 
-<h3 class="mono-space">Tramas</h3>
+<h3 class="mono-space">Trama completa</h3>
 
 <div class="home-post">
   <div class="controls">
     <button type="button" class="ui button compact black" data-filter="all">
       Todo
     </button>
-    <button type="button" class="ui button compact green" data-filter=".categoria-naturaleza">Naturaleza</button>
-    <button type="button" class="ui button compact blue" data-filter=".categoria-ciencia">Ciencia</button>
-    <button type="button" class="ui button compact red" data-filter=".categoria-psiconautica">Psiconautica</button>
-    <button type="button" class="ui button compact yellow" data-filter=".categoria-espiritualidad">Espiritualidad</button>
-    <button type="button" class="ui button compact orange" data-filter=".categoria-contracultura">Contracultura</button>
-    <button type="button" class="ui button compact purple" data-filter=".categoria-politica">Politica</button>
+    <button type="button" class="ui button compact green" data-filter=".trama-naturaleza">Naturaleza</button>
+    <button type="button" class="ui button compact blue" data-filter=".trama-ciencia">Ciencia</button>
+    <button type="button" class="ui button compact red" data-filter=".trama-psiconautica">Psiconautica</button>
+    <button type="button" class="ui button compact yellow" data-filter=".trama-espiritualidad">Espiritualidad</button>
+    <button type="button" class="ui button compact orange" data-filter=".trama-contracultura">Contracultura</button>
+    <button type="button" class="ui button compact purple" data-filter=".trama-politica">Politica</button>
     <button type="button" class="ui button compact" data-sort="random">Arbitrario</button>
   </div>
 
   <div class="container">
+    <div class="fail-message"><span>Estos filtros no dieron resultado.</span></div>
     {% for post in site.posts %}
-      <div class="item mix categoria-{{post.category}}">
-        <div class="content">
-          <h3 class="mono-space">
-            {{post.category}} / {{post.type}}
-          </h3>
+    <div class="item mix trama-{{post.category}} trama-{{post.type}}">
+      <div class="content">
+        <h3 class="mono-space">
+          {{post.category}} / {{post.type}}
+        </h3>
+        <a href="{{site.baseurl}}{{post.url}}" class="header">
+          <span aria-hidden="true" class="post-status"></span>
+          {{post.title}} <br>
           <i class="duration">{{post.duration}}</i>
-          <a href="{{site.baseurl}}{{post.url}}" class="header">{{post.title}}</a>
-
-          <div class="description">
-            {{post.meta}}
-          </div>
-
+        </a>
+        
+        <div class="description">
+          {{post.meta}}
         </div>
       </div>
+    </div>
     {%endfor %}
   </div>
 </div>

@@ -5,6 +5,7 @@ title: Constelaciones de Walter Benjamin
 meta: Constelaciones es una reflexión en imágenes en torno a algunos conceptos centrales de la obra de Walter Benjamin.
 category: contracultura
 type: videoesfera
+coleccion: semanal-1
 duration: 46min
 tags: [ largo, documental, Walter Benjamin]
 author: Circulo de Bellas Artes
