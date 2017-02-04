@@ -15,6 +15,8 @@ layout: default
     <button type="button" class="ui button compact yellow" data-filter=".trama-espiritualidad">Espiritualidad</button>
     <button type="button" class="ui button compact orange" data-filter=".trama-contracultura">Contracultura</button>
     <button type="button" class="ui button compact purple" data-filter=".trama-politica">Politica</button>
+    <button type="button" class="ui button compact" data-filter=".trama-videoesfera">Videoesfera</button>
+    <button type="button" class="ui button compact" data-filter=".trama-articulo">Articulos</button>
     <button type="button" class="ui button compact" data-sort="random">Arbitrario</button>
   </div>
 
@@ -29,7 +31,14 @@ layout: default
         <a href="{{site.baseurl}}{{post.url}}" class="header">
           <span aria-hidden="true" class="post-status"></span>
           {{post.title}} <br>
-          <i class="duration">{{post.duration}}</i>
+          <i class="duration">
+              {{post.duration}}
+              {% if post.type contains 'articulo' %}
+                  de lectura
+              {% else %}
+                  de video
+              {% endif %}
+          </i>
         </a>
         
         <div class="description">

@@ -3,6 +3,7 @@ layout: post
 icon: youtube play
 title: Programacion predictiva, teoria y practica
 meta: Un gran compendio de información narrada por Alan Watt en la que se explica cómo funciona la industria cinematográfica, cómo usan la magia, la programación predictiva y otras técnicas de control e inducción de información.
+featured: true
 category: contracultura
 coleccion: semanal-1
 type: videoesfera

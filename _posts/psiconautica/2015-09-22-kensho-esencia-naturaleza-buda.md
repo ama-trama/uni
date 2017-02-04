@@ -3,7 +3,7 @@ layout: post
 icon: youtube play
 title: Kensho
 meta: Kensho es un termino japones de la tradicion Zen que hace referencia a una primera intuición del despertar. Ver la esencia y la naturaleza de Buda
-source: https://www.youtube.com/watch?v=CZTy8aOUPNs
+featured: true
 category: psiconautica
 type: videoesfera
 tags: [ corto, alan watts, kensho]

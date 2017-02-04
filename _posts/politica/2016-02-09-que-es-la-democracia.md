@@ -3,6 +3,8 @@ layout: post
 icon: youtube play
 title: ¿Que es realmente la democracia?
 meta: La respuesta da literalmente la vuelta a la cuestion para verlo con otros ojos.
+featured: true
+comments: true
 category: politica
 type: videoesfera
 duration: 10min

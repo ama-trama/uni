@@ -15,7 +15,7 @@ layout: default
 
 <section class="post trama-{{page.categories}}">
 	<div class="page-meta" style="text-align: center; margin-bottom: 15px;">
-		<i>{{page.duration}}</i>
+    <i>{{page.duration}}</i>
 		<b>{{page.categories}}</b>
 		<time>{{ page.date | date: "%-d %B %Y" }}</time>
 		<div class="source">
@@ -60,6 +60,8 @@ layout: default
   {% endif %}
   </div>
 </div>
+{% include disqus.html %}
 </div>
+
 
 

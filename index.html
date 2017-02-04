@@ -6,8 +6,9 @@ layout: default
 
 <div class="home-post">
   <div class="container">
-    {% for post in site.posts %}
-      <div class="item mix trama-{{post.category}}">
+    {% assign features = site.posts | where:"featured", true %}
+    {% for post in features limit:6 %}
+<div class="item mix trama-{{post.category}}">
         <div class="content">
           <h3 class="mono-space">
             {{post.category}} / {{post.type}}
@@ -15,14 +16,28 @@ layout: default
           <a href="{{site.baseurl}}{{post.url}}" class="header">
             <span aria-hidden="true" class="post-status"></span>
             {{post.title}} <br>
-            <i class="duration">{{post.duration}}</i>
+          <i class="duration">
+              {{post.duration}}
+              {% if post.type contains 'articulo' %}
+                  de lectura
+              {% else %}
+                  de video
+              {% endif %}
+          </i>
           </a>
+
+          <ul class="posts">
+
+    
+
+</ul>
           
           <div class="description">
             {{post.meta}}
           </div>
         </div>
       </div>
-    {%endfor %}
+    {% endfor %}
   </div>
 </div>
+

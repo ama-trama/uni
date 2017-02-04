@@ -3,6 +3,7 @@ layout: post
 icon: youtube play
 title: Mundos internos, Mundos Externos
 meta: Existe un campo vibratorio que conecta todas las cosas.
+featured: true
 category: espiritualidad
 type: videoesfera
 duration: 30min
