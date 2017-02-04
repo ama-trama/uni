@@ -3,6 +3,7 @@ layout: post
 icon: youtube play
 title: Mecanica cuantica, experimento de la doble rendija
 meta: Este es un fragmento de la pelicula "Y Tu Que Sabes" les recomiendo comprarla.
+comments: true
 category: ciencia
 type: videoesfera
 duration: 5min
@@ -14,4 +15,10 @@ author_url: http://www.whatthebleep.com/
  Este es un fragmento de la pelicula "Y Tu Que Sabes" les recomiendo comprarla.
 </p>
 
-<iframe width="853" height="480" src="https://www.youtube.com/embed/SzX-R38dZQw" frameborder="0" allowfullscreen></iframe>
+
+
+<div class="video">
+  <div class="video-wrapper">
+<iframe src="https://www.youtube.com/embed/SzX-R38dZQw" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>

@@ -3,6 +3,7 @@ layout: post
 icon: youtube play
 title: Satoshi Kon - Editando el espacio y el tiempo
 meta: 
+comments: true
 category: contracultura
 type: videoesfera
 duration: 8min
@@ -14,5 +15,8 @@ author_url: https://www.youtube.com/channel/UCjFqcJQXGZ6T6sxyFB-5i6A
 <p>
 	
 </p>
-
-<iframe width="853" height="480" src="https://www.youtube.com/embed/oz49vQwSoTE" frameborder="0" allowfullscreen></iframe>
+<div class="video">
+  <div class="video-wrapper">
+<iframe src="https://www.youtube.com/embed/oz49vQwSoTE" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>

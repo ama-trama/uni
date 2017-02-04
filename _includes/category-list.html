@@ -9,7 +9,14 @@
         <a href="{{site.baseurl}}{{post.url}}" class="header">
           <span aria-hidden="true" class="post-status"></span>
           {{post.title}} <br>
-          <i class="duration">{{post.duration}}</i>
+          <i class="duration">
+              {{post.duration}}
+              {% if post.type contains 'articulo' %}
+                  de lectura
+              {% else %}
+                  de video
+              {% endif %}
+          </i>
         </a>
         
         <div class="description">

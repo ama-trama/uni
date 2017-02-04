@@ -4,6 +4,7 @@ icon: youtube play
 title: Mundos internos, Mundos Externos
 meta: Existe un campo vibratorio que conecta todas las cosas.
 featured: true
+comments: true
 category: espiritualidad
 type: videoesfera
 duration: 30min
@@ -12,9 +13,13 @@ author: Inner World
 author_url: http://www.innerworldsmovie.com/
 ---
 
-<iframe width="720" height="480" src="https://www.youtube.com/embed/aXuTt7c3Jkg?list=PLD8E5F0D70B62BEFE" frameborder="0" allowfullscreen></iframe>
-<br>
-<p>
+<div class="video">
+  <div class="video-wrapper">
+<iframe src="https://www.youtube.com/embed/aXuTt7c3Jkg?list=PLD8E5F0D70B62BEFE" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+
+<p class="hyphenate">
 	Existe un campo vibratorio que conecta todas las cosas.
 Se le ha denominado Akasha, el OM primordial, la red de Joyas de Indra, la música de las esferas y miles de otros nombres a través de la historia. 
 Los antiguos maestros védicos enseñaban Nada Brahma: el universo es vibración. 

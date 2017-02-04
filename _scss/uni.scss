@@ -6,6 +6,8 @@
 @import 'base/scaffold';
 @import 'base/variables';
 
+
+
 .top-bar {
 	position: fixed;
 	height: 60px;
@@ -69,12 +71,42 @@
 
 }
 
+@-webkit-keyframes movearound {
+	0% {
+		fill:#efd510;
+	}
+	15% {
+		fill:#f2910a;
+	}
+	30% {
+		fill:#e84545;
+	}
+	45% {
+		fill:#951556;
+	}
+	60% {
+		fill:#283996;
+	}
+	80% {
+		fill:#25a55f;
+	}
+	100% {
+		fill:#efd510;
+	}
+}
+
+
+
 .logo {
 	font-size: 50px;
 
 	svg {
 		height: 1em;
 		width: 1em;
+	}
+
+	.logo-fill{
+		-webkit-animation: movearound 18s ease infinite normal;
 	}
 
 	span {
@@ -216,8 +248,12 @@ aside {
 }
 
 .post {
-	max-width: 740px;
+	max-width: 760px;
 	margin: 0 auto 3em;
+
+	article {
+		padding: 0 4em;
+	}
 
 	p {
 		font-weight: 400;
@@ -228,6 +264,7 @@ aside {
 		color: #333;
 	}
 }
+
 
 .trama-espiritualidad {
 	color: #efd510;

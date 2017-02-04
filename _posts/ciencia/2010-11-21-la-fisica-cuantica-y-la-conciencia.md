@@ -3,6 +3,7 @@ layout: post
 icon: youtube play
 title: El mundo se hace con-ciencia
 meta: El mundo tiene sentido únicamente si establecemos su fundamento en la conciencia. El mundo está hecho de conciencia. El mundo es conciencia.
+comments: true
 featured: true
 category: ciencia
 type: videoesfera
@@ -14,5 +15,9 @@ author_url: http://www.amitgoswami.org/
 <p>
 El mundo tiene sentido únicamente si establecemos su fundamento en la conciencia. El mundo está hecho de conciencia. El mundo es conciencia.
 </p>
+<div class="video">
+  <div class="video-wrapper">
+<iframe src="https://www.youtube.com/embed/Dza3edoKLNk" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
 
-<iframe width="853" height="480" src="https://www.youtube.com/embed/Dza3edoKLNk" frameborder="0" allowfullscreen></iframe>

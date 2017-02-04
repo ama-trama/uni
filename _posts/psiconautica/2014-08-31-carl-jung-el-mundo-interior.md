@@ -3,6 +3,7 @@ layout: post
 icon: youtube play
 title: El mundo interior de Carl Jung
 meta: Documental del famoso y reconocido Carl Jung, médico psiquiatra, psicólogo y ensayista suizo, estudiador de la materia de los sueños y las verdades internas.
+comments: true
 category: psiconautica
 type: videoesfera
 tags: [ largo, carl jung, documental]
@@ -15,5 +16,8 @@ source: https://www.youtube.com/watch?v=OsMgeVZ1Qbg
 <p>
 	Documental del famoso y reconocido Carl Jung, médico psiquiatra, psicólogo y ensayista suizo, estudiador de la materia de los sueños y las verdades internas.
 </p>
-
-<iframe width="720" height="480" src="https://www.youtube.com/embed/OsMgeVZ1Qbg" frameborder="0" allowfullscreen></iframe>
+<div class="video">
+  <div class="video-wrapper">
+<iframe src="https://www.youtube.com/embed/OsMgeVZ1Qbg" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
