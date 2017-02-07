@@ -162,12 +162,17 @@ aside {
 	}
 
 	.item {
-		width: 31%;
+		min-width: 31%;
 		margin: 1em 1em 1em 0;
 
 
 		@include media($ipad) {
-			width: 100%;
+			width: 48%;
+		}
+
+		@include media($ivertical) {
+			width: 100% !important;
+			    flex: 1 1 100%;
 		}
 
 		.content {
@@ -255,6 +260,8 @@ aside {
 		padding: 0 4em;
 	}
 
+
+
 	p {
 		font-weight: 400;
 		font-style: normal;
@@ -262,6 +269,21 @@ aside {
 		line-height: 1.58;
 		letter-spacing: -.003em;
 		color: #333;
+	}
+}
+
+article {
+	ol {
+		font-weight: 400;
+	    font-style: normal;
+	    font-size: 21px;
+	    line-height: 1.58;
+	    letter-spacing: -.003em;
+	    padding: 0;
+	}
+
+	li {
+		margin-bottom: 10px;
 	}
 }
 
@@ -299,9 +321,47 @@ aside {
 
     button {
     	opacity: 0.8;
+    	margin-bottom: 10px !important;
 
     	&.mixitup-control-active {
     		opacity: 1;
+    	}
+    }
+
+    .trama-espiritualidad {
+    	&.mixitup-control-active {
+    		background: #efd510;
+    		color: #333;
+    	}
+    }
+    .trama-contracultura {
+    	&.mixitup-control-active {
+    		background: #f2910a;
+    		color: #fff;
+    	}
+    }
+    .trama-psiconautica {
+    	&.mixitup-control-active {
+    		background: #e84545;
+    		color: #fff;
+    	}
+    }
+    .trama-politica {
+    	&.mixitup-control-active {
+    		background: #951556;
+    		color: #fff;
+    	}
+    }
+    .trama-ciencia {
+    	&.mixitup-control-active {
+    		background: #283996;
+    		color: #fff;
+    	}
+    }
+    .trama-naturaleza {
+    	&.mixitup-control-active {
+    		background: #25a55f;
+    		color: #fff;
     	}
     }
 }
