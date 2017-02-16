@@ -8,7 +8,6 @@ comments: true
 category: espiritualidad
 type: videoesfera
 duration: 30min
-tags: [ destacado, largo, documental, akasha, buda]
 author: Inner World
 author_url: http://www.innerworldsmovie.com/
 ---

@@ -1,21 +1,104 @@
 ---
 layout: default
 ---
+<script>
+  $(document).ready(function(){
+    $('.featured-container').owlCarousel({
+        center: true,
+        singleItem:true,
+        navigation : true, // Show next and prev buttons
+        navigationText: [
+        "<i class='fa fa-chevron-left'></i>",
+        "<i class='fa fa-chevron-right'></i>"
+        ],
+        items:1,
+        autoHeight:true,
+        slideSpeed : 3000,
+        autoPlay: 6000,
+        paginationSpeed : 2000,
+        loop:true,
+        margin:10,
+        transitionStyle:"fade",
+    })
+  });
+</script>
 
-<h3 class="mono-space">Descubrimientos Semanales</h3>
 
-<div class="home-post">
-  <div class="container">
+
+<div class="featured-container owl-carousel owl-theme">
     {% assign features = site.posts | where:"featured", true %}
     {% for post in features limit:6 %}
-<div class="item mix trama-{{post.category}}">
+<div class="item trama-{{post.category}}">
         <div class="content">
-          <h3 class="mono-space">
-            {{post.category}} / {{post.type}}
-          </h3>
+          <h5 class="mono-space">
+            <i class="duration">
+                
+                {% if post.type contains 'articulo' %}
+                    Lectura de
+                {% else %}
+                    Video de
+                {% endif %}
+                {{post.duration}}
+            </i>
+            sobre
+            {{post.category}}
+          </h5>
           <a href="{{site.baseurl}}{{post.url}}" class="header">
             <span aria-hidden="true" class="post-status"></span>
-            {{post.title}} <br>
+            <h3 class="mono-space" style="text-decoration: underline;">
+            {{post.title}}
+            </h3>
+          
+          </a>
+
+
+          
+          <div class="description" style="margin-top: 10px;">
+             
+            {{post.meta}}
+                      
+          <div class="meta mono-space" style="margin-top: 15px;">
+            Vía <a href="{{post.author_url}}" target="_blank">{{post.author}}</a>,
+            <time datetime="{{ post.date | %Y-%m-%d %H:%M+01:00 }}">
+                     <!-- Whitespace added for readability -->
+                     {% assign m = post.date | date: "%-m" %}
+                     {% case m %}
+                       {% when '1' %}Ene
+                       {% when '2' %}Feb
+                       {% when '3' %}Mar
+                       {% when '4' %}Abr
+                       {% when '5' %}May
+                       {% when '6' %}Jun
+                       {% when '7' %}Jul
+                       {% when '8' %}Ago
+                       {% when '9' %}Sep
+                       {% when '10' %}Oct
+                       {% when '11' %}Nov
+                       {% when '12' %}Dic
+                     {% endcase %}
+                     {{ post.date | date: "%Y" }}
+            </time>
+          </div>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+</div>
+<div class="home-post" style="padding-bottom: 100px;">
+    <div class="container" style="max-width: 900px;margin: 0 auto;">
+    <h3 class="mono-space" style="text-align: center;width: 100%;font-size: 21px;margin-top: 35px;">Últimas actualizaciones</h3>
+    {% include mixitup-controls.html %}
+    {% assign home-list = site.posts | where:"featured", false %}
+    {% for post in home-list %}
+
+    <div class="mix item trama-{{post.category}} trama-{{post.type}}" style="width:100%;" data-published-date="{{ post.date | %Y-%m-%d %H:%M+01:00 }}">
+      <div class="content">
+        <h3 class="mono-space">
+          {{post.category}} / {{post.type}}
+        </h3>
+        <a href="{{site.baseurl}}{{post.url}}" class="header">
+          <span aria-hidden="true" class="post-status"></span>
+          {{post.title}} <br>
           <i class="duration">
               {{post.duration}}
               {% if post.type contains 'articulo' %}
@@ -24,21 +107,43 @@ layout: default
                   de video
               {% endif %}
           </i>
+        </a>
+        
+        
+        <div class="description">
+          {{post.meta}}
+        </div>
+        <div class="meta">
+          via <a href="{{post.author_url}}" target="_blank">{{post.author}}</a> - 
           
-          </a>
+<time datetime="{{ post.date | %Y-%m-%d %H:%M+01:00 }}">
+         <!-- Whitespace added for readability -->
+         {% assign m = post.date | date: "%-m" %}
+         {% case m %}
+           {% when '1' %}Ene
+           {% when '2' %}Feb
+           {% when '3' %}Mar
+           {% when '4' %}Abr
+           {% when '5' %}May
+           {% when '6' %}Jun
+           {% when '7' %}Jul
+           {% when '8' %}Ago
+           {% when '9' %}Sep
+           {% when '10' %}Oct
+           {% when '11' %}Nov
+           {% when '12' %}Dic
+         {% endcase %}
+         {{ post.date | date: "%Y" }}
+</time>
 
-          <ul class="posts">
 
-    
 
-</ul>
-          
-          <div class="description">
-            {{post.meta}}
-          </div>
         </div>
       </div>
-    {% endfor %}
+    </div>
+ 
+    {%endfor %}
   </div>
 </div>
+{% include footer.html %}
 

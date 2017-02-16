@@ -4,6 +4,7 @@ icon: youtube play
 title: Wanderers (nómadas)
 meta: Wanderers es una vision de una humanidad que explora el espacio en la voz de Carl Sagan.
 comments: true
+featured: false
 category: psiconautica
 type: videoesfera
 tags: [ corto, carl sagan, film]

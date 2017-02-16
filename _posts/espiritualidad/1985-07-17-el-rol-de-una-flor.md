@@ -4,6 +4,7 @@ icon: youtube play
 title: El rol de una flor
 meta: Entrevista a Krishnamurti en Brockwood Park 1985
 comments: true
+featured: false
 category: espiritualidad
 type: videoesfera
 duration: 25min

@@ -8,6 +8,8 @@ comments: true
 category: politica
 type: articulo
 duration: 3min
+author: activistpost
+author_url: http://www.activistpost.com/2017/01/rothschild-family-wealth-five-times-worlds-top-8-billionaires-combined.html
 ---
 
 <p class="hyphenate">

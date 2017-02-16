@@ -4,23 +4,61 @@ layout: default
 <div class="category-page">
 <aside>
   <div class="ui secondary vertical pointing menu">
-  <a class="item" href="/uni/espiritualidad/">espiritualidad</a>
-  <a class="item" href="/uni/contracultura/">contracultura</a>
-  <a class="item" href="/uni/psiconautica/">psiconautica</a>
-  <a class="item" href="/uni/politica/">politica</a>
-  <a class="item" href="/uni/ciencia/">ciencia</a>
-  <a class="item" href="/uni/naturaleza/">naturaleza</a>
+  <a class="item" href="/uni/espiritualidad/">
+    <i class="fa fa-sun-o"></i>
+    espiritualidad
+  </a>
+  <a class="item" href="/uni/contracultura/">
+    <i class="fa fa-fire"></i>
+    contracultura
+  </a>
+  <a class="item" href="/uni/psiconautica/">
+    <i class="fa fa-compass"></i>
+    psiconautica
+  </a>
+  <a class="item" href="/uni/politica/">
+    <i class="fa fa-street-view"></i>
+    politica
+  </a>
+  <a class="item" href="/uni/ciencia/">
+    <i class="fa fa-flask"></i>
+    ciencia
+  </a>
+  <a class="item" href="/uni/naturaleza/">
+    <i class="fa fa-leaf"></i>
+    naturaleza
+  </a>
   </div>
 </aside>
 
 <section class="post trama-{{page.categories}}">
-	<div class="page-meta" style="text-align: center; margin-bottom: 15px;">
-    <i>{{page.duration}}</i>
-		<b>{{page.categories}}</b>
-		<time>{{ page.date | date: "%-d %B %Y" }}</time>
-		<div class="source">
-			<a href="{{page.source}}" target="_blank">{{page.author}}</a>
+	<div class="page-meta" style="text-align: center; margin-bottom: 15px; color: #999 !important;">
+    
+		
+		<div class="source mono-space" style="margin-bottom: 8px;">
+			via <a href="{{page.author_url}}" target="_blank">{{page.author}}</a> / 
+      <time datetime="{{ page.date | %Y-%m-%d %H:%M+01:00 }}">
+         <!-- Whitespace added for readability -->
+         {% assign m = page.date | date: "%-m" %}
+         {{ page.date | date: "%-d" }}
+         {% case m %}
+           {% when '1' %}Ene
+           {% when '2' %}Feb
+           {% when '3' %}Mar
+           {% when '4' %}Abr
+           {% when '5' %}May
+           {% when '6' %}Jun
+           {% when '7' %}Jul
+           {% when '8' %}Ago
+           {% when '9' %}Sep
+           {% when '10' %}Oct
+           {% when '11' %}Nov
+           {% when '12' %}Dic
+         {% endcase %}
+         {{ page.date | date: "%Y" }}
+      </time>
 		</div>
+    {{page.duration}} de <b>{{page.categories}}</b>
 	</div>
 
 	<h3 class="mono-space" style="text-align: center; margin-bottom: 25px;">{{page.title}}</h3>

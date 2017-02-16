@@ -5,6 +5,7 @@ title: Bolivia planea abandonar el calendario gregoriano
 meta: Evo propone cambiar el año al 5.524 e instaurar un calendario más conectado con la naturaleza
 source: http://pijamasurf.com/2016/06/bolivia-planea-abandonar-calendario-gregoriano-y-por-que-eso-es-una-buena-idea/
 comments: true
+featured: false
 category: politica
 type: articulo
 tags: [ corto, bolivia, evo, moralez]

@@ -5,6 +5,7 @@ title: Cómo Portugal pasó 5 días usando sólo energía de fuentes renovables
 meta: En 2011 parte significativa de su energía provenía de fuentes solares, eólicas e hidráulicas y en ese mismo año un experimento probó que el país podía sostenerse únicamente con este tipo de energías durante horas. 
 source: http://pijamasurf.com/2016/05/de-como-portugal-paso-5-dias-usando-solo-energia-de-fuentes-renovables/
 comments: true
+featured: false
 category: naturaleza
 type: articulo
 element: aire

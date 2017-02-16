@@ -1,12 +1,132 @@
 @import 'plugins/semantic-ui/semantic-ui';
 @import 'plugins/bourbon/bourbon';
 @import 'plugins/neat/neat';
+@import 'plugins/owl/owl.carousel';
+@import 'plugins/owl/owl.theme';
+@import 'plugins/owl/owl.transitions';
+
 
 @import 'base/font-face';
 @import 'base/scaffold';
 @import 'base/variables';
 
+@import 'modules/footer';
 
+.purple {
+	background: #951556 !important;
+}
+
+.featured-container {
+    padding: 0 0 50px;
+    background: #f9f9f9;
+
+}
+
+.owl-carousel .owl-item {
+    float: left;
+    padding: 0;
+    text-align: center;
+
+    .item {
+    	padding: 35px 22vw 60px;
+    	min-height: 350px;
+    	height: 350px !important;
+    	display: flex;
+    	align-items: center;
+    	justify-content: center;
+
+    	.content {
+    		position: relative;
+    		z-index: 1;
+    	}
+
+		&.trama-espiritualidad {
+    		background: #efd510;
+    		color: #333;
+
+	    	a {
+	    		color: #333;
+			    border-bottom: 1px solid #333;
+	    	}
+    	}
+    	&.trama-contracultura {
+    		background: #f2910a;
+    		color: #fff;
+    	}
+    	&.trama-psiconautica {
+    		background: #e84545;
+    		color: #fff;
+    	}
+    	&.trama-politica {
+    		background: #951556;
+    		color: #fff;
+    	}
+    	&.trama-ciencia {
+    		background: #283996;
+    		color: #fff;
+    	}
+    	&.trama-naturaleza {
+    		background: #25a55f;
+    		color: #fff;
+    	}
+
+    	&:before {
+    		    content: "";
+    		    width: 100vw;
+    		    height: 100vh;
+    		    background: url(https://americasetrama.github.io/uni/images/back-trama-shipi.svg);
+    		    top: 0;
+    		    right: 0;
+    		    position: absolute;
+    		    display: inline-block;
+    		    background-size: 160px;
+    		    opacity: 0.1;
+    		    z-index: 0;
+    	}
+
+    	a {
+    		color: #fff;
+		    border-bottom: 1px solid #fff;
+    	}
+
+		@include media($ipad) {
+			padding: 2em;
+		}
+    }
+}
+
+.owl-buttons {
+	position: absolute;
+	top: -220px;
+	right: 0;
+	left: 0;
+
+	@include media($ipad) {
+		display: none;
+	}
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+	position: absolute;
+	background: none !important;
+	color: #fff;
+	opacity: 0.5;
+	-webkit-transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
+	-moz-transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
+	transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
+
+	&:hover {
+		opacity: 0.8;
+	}
+}
+
+
+.owl-pagination {
+	position: absolute;
+	left: calc(50vw - 93px);
+	width: 180px;
+	top: 10px;
+}
 
 .top-bar {
 	position: fixed;
@@ -16,7 +136,7 @@
 	right: 0;
 	display: flex;
 	align-items: center;
-	z-index: 2;
+	z-index: 999;
 	padding: 0 0 0 15px;
 	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
 
@@ -65,7 +185,7 @@
 }
 
 .main-container {
-	padding: 80px 1em 0;
+	padding: 60px 0 0 0;
 	//max-width: 1080px;
 	margin: 0 auto;
 
@@ -120,6 +240,19 @@
 .category-page {
 	width: 100%;
 	padding-left: 270px;
+	padding-top: 35px;
+    padding-bottom: 50px;
+}
+
+.header-actions {
+	display: flex;
+    align-items: baseline;
+
+    .controls {
+    	flex: 1;
+    	text-align: right;
+    	padding: 0 15px 0 0;
+    }
 }
 
 aside {
@@ -162,7 +295,8 @@ aside {
 	}
 
 	.item {
-		min-width: 31%;
+		//min-width: 31%;
+		min-width: 45%;
 		margin: 1em 1em 1em 0;
 
 

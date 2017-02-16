@@ -4,6 +4,7 @@ icon: youtube play
 title: Constelaciones de Walter Benjamin
 meta: Constelaciones es una reflexión en imágenes en torno a algunos conceptos centrales de la obra de Walter Benjamin.
 comments: true
+featured: false
 category: contracultura
 type: videoesfera
 coleccion: semanal-1

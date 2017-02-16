@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<h3 class="mono-space">Trama completa</h3>
 
-<div class="home-post">
+<div class="home-post" style="padding: 20px;">
+  <h2 class="mono-space">Trama completa</h2>
   <div class="controls">
     <button type="button" class="ui button compact large " data-filter="all">
       Todo
@@ -17,13 +17,19 @@ layout: default
     <button type="button" class="ui button compact large trama-politica" data-filter=".trama-politica">Politica</button>
     <button type="button" class="ui button compact large trama-videoesfera" data-filter=".trama-videoesfera">Videoesfera</button>
     <button type="button" class="ui button compact large trama-articulo" data-filter=".trama-articulo">Articulos</button>
-    <button type="button" class="ui button compact large" data-sort="random">Arbitrario</button>
+      <button type="button" class="ui button compact large" data-sort="published-date:desc">
+    <i class='fa fa-chevron-down'></i>
+    </button>
+    <button type="button" class="ui button compact large" data-sort="published-date:asc">
+    <i class='fa fa-chevron-up'></i>
+    </button>
+      <button type="button" class="ui button compact large" data-sort="random">Arbitrario</button>
   </div>
 
   <div class="container">
     <div class="fail-message"><span>Estos filtros no dieron resultado.</span></div>
     {% for post in site.posts %}
-    <div class="item mix trama-{{post.category}} trama-{{post.type}}">
+    <div class="item mix trama-{{post.category}} trama-{{post.type}}" data-published-date="{{ post.date | %Y-%m-%d %H:%M+01:00 }}">
       <div class="content">
         <h3 class="mono-space">
           {{post.category}} / {{post.type}}
@@ -44,8 +50,30 @@ layout: default
         <div class="description">
           {{post.meta}}
         </div>
+                <time datetime="{{ post.date | %Y-%m-%d %H:%M+01:00 }}">
+         <!-- Whitespace added for readability -->
+         {% assign m = post.date | date: "%-m" %}
+         {{ post.date | date: "%-d" }}
+         {% case m %}
+           {% when '1' %}Ene
+           {% when '2' %}Feb
+           {% when '3' %}Mar
+           {% when '4' %}Abr
+           {% when '5' %}May
+           {% when '6' %}Jun
+           {% when '7' %}Jul
+           {% when '8' %}Ago
+           {% when '9' %}Sep
+           {% when '10' %}Oct
+           {% when '11' %}Nov
+           {% when '12' %}Dic
+         {% endcase %}
+         {{ post.date | date: "%Y" }}
+</time>
       </div>
     </div>
     {%endfor %}
   </div>
 </div>
+
+{% include footer.html %}

@@ -2,33 +2,61 @@
 layout: default
 ---
 
+
 <div class="category-page">
-<h3 class="mono-space">Espiritualidad</h3>
+
+<div class="header-actions">
+  <h3 class="mono-space">Espiritualidad</h3>
+  <div class="controls">
+    <button type="button" class="ui button compact yellow" data-filter="all">
+    Todo ({{ site.categories.espiritualidad | size }})
+    </button>
+    <button type="button" class="ui button compact yellow" data-filter=".trama-videoesfera">Videoesfera</button>
+    <button type="button" class="ui button compact yellow" data-filter=".trama-articulo">Articulos</button>
+    <button type="button" class="ui button compact" data-sort="published-date:desc">
+    <i class='fa fa-chevron-down'></i>
+    </button>
+    <button type="button" class="ui button compact" data-sort="published-date:asc">
+    <i class='fa fa-chevron-up'></i>
+    </button>
+    <button type="button" class="ui button compact" data-sort="random">Arbitrario</button>
+  </div>
+</div>
+
+<div class="home-post" style="width: 100%;">
+  <div class="container">
+    <div class="fail-message"><span>Estos filtros no dieron resultado.</span></div>
+    {% include category-list.html category='espiritualidad' %}
+    </div>
+  </div>
+</div>
 
 <aside>
   <div class="ui secondary vertical pointing menu">
-  <a class="item active" href="/uni/espiritualidad">espiritualidad</a>
-  <a class="item" href="/uni/contracultura">contracultura</a>
-  <a class="item" href="/uni/psiconautica/">psiconautica</a>
-  <a class="item" href="/uni/politica/">politica</a>
-  <a class="item" href="/uni/ciencia/">ciencia</a>
-  <a class="item" href="/uni/naturaleza/">naturaleza</a>
+    <a class="item" href="/uni/espiritualidad/">
+      <i class="fa fa-sun-o"></i>
+      espiritualidad
+    </a>
+    <a class="item" href="/uni/contracultura/">
+      <i class="fa fa-fire"></i>
+      contracultura
+    </a>
+    <a class="item" href="/uni/psiconautica/">
+      <i class="fa fa-compass"></i>
+      psiconautica
+    </a>
+    <a class="item" href="/uni/politica/">
+      <i class="fa fa-street-view"></i>
+      politica
+    </a>
+    <a class="item" href="/uni/ciencia/">
+      <i class="fa fa-flask"></i>
+      ciencia
+    </a>
+    <a class="item" href="/uni/naturaleza/">
+      <i class="fa fa-leaf"></i>
+      naturaleza
+    </a>
   </div>
 </aside>
-
-<div class="controls">
-<button type="button" class="ui button compact yellow" data-filter="all">
-  Todo ({{ site.categories.espiritualidad | size }})
-</button>
-  <button type="button" class="ui button compact yellow" data-filter=".trama-videoesfera">Videoesfera</button>
-  <button type="button" class="ui button compact yellow" data-filter=".trama-articulo">Articulos</button>
-  <button type="button" class="ui button compact" data-sort="random">Arbitrario</button>
-</div>
-
-<div class="home-post">
-  <div class="container">
-    <div class="fail-message"><span>Estos filtros no dieron resultado.</span></div>
-   {% include category-list.html category='espiritualidad' %}
-  </div>
-</div>
 </div>

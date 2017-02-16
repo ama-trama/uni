@@ -4,6 +4,7 @@ icon: file text
 title: 10 formas de elevar la conciencia sin necesidad de usar drogas psicodélicas
 meta: Una guía para abrir las puertas de la percepción y experimentar estados de comunión mística sin la ayuda de drogas psicodélicas
 comments: true
+featured: false
 category: psiconautica
 type: articulo
 tags: [ largo, conciencia, recurso]
