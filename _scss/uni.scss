@@ -22,6 +22,11 @@
 
 }
 
+.owl-wrapper-outer {
+	background-image: url(https://americasetrama.github.io/uni/images/back-trama-shipi.svg);
+    background-size: 160px;
+}
+
 .owl-carousel .owl-item {
     float: left;
     padding: 0;
@@ -30,7 +35,7 @@
     .item {
     	padding: 35px 22vw 60px;
     	min-height: 350px;
-    	height: 350px !important;
+    	height: 470px !important;
     	display: flex;
     	align-items: center;
     	justify-content: center;
@@ -97,7 +102,7 @@
 
 .owl-buttons {
 	position: absolute;
-	top: -220px;
+	top: -330px;
 	right: 0;
 	left: 0;
 
@@ -114,6 +119,7 @@
 	-webkit-transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
 	-moz-transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
 	transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
+    font-size: 5rem;
 
 	&:hover {
 		opacity: 0.8;
@@ -137,8 +143,15 @@
 	display: flex;
 	align-items: center;
 	z-index: 999;
-	padding: 0 0 0 15px;
+	padding: 0 0 0 105px;
 	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
+	-moz-transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
+	transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
+
+    @include media($ipad) {
+		padding: 0 0 0 30px;
+    }
 
 	nav {
 		flex: 1;
@@ -220,6 +233,18 @@
 .logo {
 	font-size: 50px;
 
+	-webkit-transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
+	-moz-transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
+	transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
+
+	position: fixed;
+	top: 5px;
+	left: 15px;
+
+    @include media($ipad) {
+    	top: -60px;
+    }
+
 	svg {
 		height: 1em;
 		width: 1em;
@@ -242,11 +267,24 @@
 	padding-left: 270px;
 	padding-top: 35px;
     padding-bottom: 50px;
+
+    -webkit-transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
+    -moz-transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
+    transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
+
+    @include media($ipad) {
+    	padding-left: 20px;
+    }
 }
 
 .header-actions {
 	display: flex;
     align-items: baseline;
+
+    @include media($ivertical) {
+    	flex-direction: column;
+    	flex-wrap:wrap;
+    }
 
     .controls {
     	flex: 1;
@@ -262,6 +300,18 @@ aside {
 	width: 250px;
 	top: 60px;
 	bottom: 0;
+	-webkit-transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
+	-moz-transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
+	transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
+	z-index: 99;
+
+	@include media($ipad) {
+		left: -250px;
+	}
+
+	&.is-visible {
+		left: 0;
+	}
 
 	.menu {
 		padding-top: 20px !important;
@@ -403,6 +453,7 @@ aside {
 		line-height: 1.58;
 		letter-spacing: -.003em;
 		color: #333;
+		text-align: justify;
 	}
 }
 
@@ -684,3 +735,103 @@ transition: 150ms;
   opacity: 1;
   pointer-events: auto;
 }
+
+
+
+
+
+.sliding-panel-content {
+  $action-color: #477DCA !default;
+  $dark-gray: #f9f9f9 !default;
+  $sliding-panel-border-color: $dark-gray;
+  $sliding-panel-background: lighten($sliding-panel-border-color, 5%);
+  $sliding-panel-color: #333;
+  $sliding-panel-border: 1px solid $sliding-panel-border-color;
+  $sliding-panel-background-hover: $action-color;
+  $sliding-panel-color-hover: #999;
+  $sliding-panel-background-focus: lighten($sliding-panel-background, 5%);
+
+//position: fixed;
+//top: 0;
+//right: auto;
+//bottom: 0;
+//left: 0;
+//background-size: 220px 100%;
+//background: $sliding-panel-background;
+//-webkit-overflow-scrolling: touch;
+//overflow-y: auto;
+//transform: translateX(-220px);
+//-webkit-transition: all .4s cubic-bezier(0.7,0,.3,1);
+//-moz-transition: all .4s cubic-bezier(0.7,0,.3,1);
+//transition: all .4s cubic-bezier(0.7,0,.3,1);
+//z-index: 999999;
+//width: 220px;
+  
+
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  li a {
+    border-bottom: $sliding-panel-border;
+    color: $sliding-panel-color;
+    display: block;
+    font-weight: bold;
+    padding: 1em;
+    text-decoration: none;
+
+    &:focus {
+      background-color: $sliding-panel-background-focus;
+    }
+
+    &:hover {
+      background-color: $sliding-panel-background-hover;
+      color: $sliding-panel-color-hover;
+    }
+  }
+
+  &.is-visible {
+    transform: translateX(0);
+  }
+}
+
+.sliding-panel-fade-screen {
+  @include position(fixed, 0);
+  background: black;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+  visibility: hidden;
+  z-index: 1;
+
+  &.is-visible {
+    opacity: 0.4;
+    visibility: visible;
+  }
+}
+
+.sliding-panel-button {
+	cursor: pointer;
+	outline: none;
+	padding: 10px 16px;
+	position: relative;
+	position: fixed;
+	left: -60px;
+	top: 12px;
+	-webkit-transition: all .4s cubic-bezier(0.7,0,.3,1);
+	-moz-transition: all .4s cubic-bezier(0.7,0,.3,1);
+	transition: all .4s cubic-bezier(0.7,0,.3,1);
+
+	@include media($ipad) {
+		left: 0;
+	}
+
+	img {
+		height: 1.3em;
+	}
+}
+

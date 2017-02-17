@@ -58,7 +58,14 @@ layout: default
          {{ page.date | date: "%Y" }}
       </time>
 		</div>
-    {{page.duration}} de <b>{{page.categories}}</b>
+    <b class="duration mono-space">
+        {{page.duration}}
+        {% if page.type contains 'articulo' %}
+            de lectura
+        {% else %}
+            de video
+        {% endif %}
+    </b>
 	</div>
 
 	<h3 class="mono-space" style="text-align: center; margin-bottom: 25px;">{{page.title}}</h3>

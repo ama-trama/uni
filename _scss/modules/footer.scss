@@ -65,10 +65,18 @@
 
   p {
     color: $footer-disclaimer-color;
-    font-size: 0.9em;
-    line-height: 1.5em;
+    font-size: 1em;
+    line-height: 1.8em;
     margin: auto;
     max-width: 35em;
-    text-align: center;
+    text-align: justify;
+    -webkit-transition: all 1.8s cubic-bezier(0.7, 0, 0.3, 1);
+    -moz-transition: all 1.8s cubic-bezier(0.7, 0, 0.3, 1);
+    transition: all 1.8s cubic-bezier(0.7, 0, 0.3, 1);
+    margin-bottom: 15px;
+
+    &:hover {
+      //transform: scale(1.5) translateY(0);
+    }
   }
 }

@@ -2,7 +2,7 @@
 layout: post
 icon: youtube play
 title: Como se transforma la gravedad en luz
-meta: Mediante la reutilizacion de un viejo mecanismo de los relojes
+meta: Mediante la reutilización de un viejo mecanismo de los relojes
 comments: true
 featured: true
 category: ciencia
