@@ -1,0 +1,50 @@
+.top-bar {
+	position: fixed;
+	height: 60px;
+	background: #fff;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	z-index: 999;
+	padding: 0 0 0 105px;
+	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
+	-moz-transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
+	transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
+
+    @include media($ipad) {
+		padding: 0 0 0 30px;
+    }
+
+	nav {
+		flex: 1;
+		padding: 0 35px;
+
+		a {
+			font-family: $headerFont;
+			padding: 0 15px;
+			color: #333;
+			font-weight: 600;
+			text-transform: uppercase;
+			font-size: 15px;
+			letter-spacing: 1px;
+		}
+	}
+
+	.github-ama {
+		background: #f9f8f7;
+		height: 60px;
+		display: flex;
+		align-items: center;
+		padding: 0 10px 0 33px;
+
+		span {
+			font-family: $headerFont;
+			position: relative;
+			top: -2px;
+			right: 11px;
+			font-weight: 600;
+		}
+	}
+}
