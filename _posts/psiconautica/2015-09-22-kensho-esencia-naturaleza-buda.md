@@ -11,16 +11,9 @@ tags: [ corto, alan watts, kensho]
 duration: 5min
 author: Aaron Paradox
 author_url: https://vimeo.com/aaronparadox
-source: https://vimeo.com/aaronparadox
+source: https://www.youtube.com/embed/CZTy8aOUPNs
 ---
 
 <p>
 	Kensho es un termino japones de la tradicion Zen que hace referencia a una primera intuición del despertar. Ver la esencia y la naturaleza 
 </p>
-<div class="video">
-  <div class="video-wrapper">
-  <iframe src="https://www.youtube.com/embed/CZTy8aOUPNs" frameborder="0" allowfullscreen></iframe>
-  </div>
-</div>
-
-

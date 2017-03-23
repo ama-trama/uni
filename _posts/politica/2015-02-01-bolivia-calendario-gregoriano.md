@@ -8,8 +8,9 @@ comments: true
 featured: false
 category: politica
 type: articulo
-tags: [ corto, bolivia, evo, moralez]
 duration: 2min
+author: Pijama Surf
+author_url: http://pijamasurf.com/2016/06/bolivia-planea-abandonar-calendario-gregoriano-y-por-que-eso-es-una-buena-idea/
 ---
 
 <p class="hyphenate">

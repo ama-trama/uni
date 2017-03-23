@@ -61,10 +61,17 @@ layout: default
 
 <div class="home-post" style="padding-bottom: 100px;padding-left: 11px;">
   <div class="container" style="max-width: 900px;margin: 0 auto;">
-    <h3 class="mono-space" style="text-align: center;width: 100%;font-size: 21px;margin-top: 35px;">Últimas actualizaciones
-    </h3>
+    <h2 class="mono-space" style="text-align: center;width: 100%;font-size: 28px;margin-top: 35px;margin-bottom: 33px;">Últimas actualizaciones
+    </h2>
     
-    {% include mixitup-controls.html %}
+    <div class="controls">
+    <button type="button" class="ui button compact large trama-naturaleza" data-filter=".trama-naturaleza">Naturaleza</button>
+    <button type="button" class="ui button compact large trama-ciencia" data-filter=".trama-ciencia">Ciencia</button>
+    <button type="button" class="ui button compact large trama-psiconautica" data-filter=".trama-psiconautica">Psiconautica</button>
+    <button type="button" class="ui button compact large trama-espiritualidad" data-filter=".trama-espiritualidad">Espiritualidad</button>
+    <button type="button" class="ui button compact large trama-contracultura" data-filter=".trama-contracultura">Contracultura</button>
+    <button type="button" class="ui button compact large trama-politica" data-filter=".trama-politica">Politica</button>
+  </div>
     
     {% assign home-list = site.posts | where:"featured", false %}
     {% for post in home-list %}
@@ -89,7 +96,7 @@ layout: default
             {{post.meta}}
           </div>
           <div class="meta mono-space">
-            {% include meta-time.html %}, 
+            {% include meta-time.html %} - 
             Vía <a href="{{post.author_url}}" target="_blank">{{post.author}}</a>
           </div>
         </div>

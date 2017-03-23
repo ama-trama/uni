@@ -10,13 +10,9 @@ type: videoesfera
 duration: 8min
 author: Smarter every day
 author_url: https://www.youtube.com/channel/UC6107grRI4m0o2-emgoDnAA
+source: https://www.youtube.com/embed/Jsc-pQIMxt8
 ---
 
-<div class="video">
-  <div class="video-wrapper">
-<iframe src="https://www.youtube.com/embed/Jsc-pQIMxt8" frameborder="0" allowfullscreen></iframe>
-  </div>
-</div>
 
 
 

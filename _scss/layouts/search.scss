@@ -1,0 +1,45 @@
+.nav-search {
+	padding-right: 15px;
+
+	input[type=text] {
+		border: none;
+		border-bottom: 1px solid #999;
+		outline: 0 none;
+	}
+
+	input[type=submit] {
+
+	}
+
+}
+
+.search {
+	max-width: 900px;
+	margin: 0 auto;
+	padding-top: 60px;
+
+	.search-form {
+		width: 100%;
+		text-align: center;
+		margin: 20px 0;
+
+		form {
+			display: flex;
+			justify-content: center;
+		}
+
+		input[type=text] {
+			color: red;
+			flex: 1;
+			border: none;
+			border-bottom: 1px solid #999;
+			outline: 0 none;
+		}
+
+		input[type=submit] {
+
+		}
+
+
+	}
+}

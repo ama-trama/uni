@@ -3,7 +3,7 @@ layout: post
 icon: file text
 title: La riqueza de los Rothschild es 5 veces más que los 8 primeros multimillonarios
 meta: Un reciente informe de Oxfam Internacional señala que la riqueza conjunta de los 8 multimillonarios más importantes del mundo representa la riqueza de la mitad más pobre de la humanidad, unos 3.600 millones de personas.
-featured: true
+featured: false
 comments: true
 category: politica
 type: articulo

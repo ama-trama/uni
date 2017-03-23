@@ -10,11 +10,5 @@ type: videoesfera
 duration: 9min
 author: Veritazium
 author_url: https://www.youtube.com/channel/UCHnyfMqiRRG1u-2MsSQLbXA
+source: https://www.youtube.com/embed/oVfHeWTKjag
 ---
-
-
-<div class="video">
-  <div class="video-wrapper">
-	<iframe src="https://www.youtube.com/embed/oVfHeWTKjag" frameborder="0" allowfullscreen></iframe>
-  </div>
-</div>

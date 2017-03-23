@@ -70,7 +70,18 @@ layout: default
 
   	<h3 class="mono-space" style="text-align: center; margin-bottom: 25px;">{{page.title}}</h3>
   	<article>
-  		{{content}}
+
+      {% if page.type contains 'articulo' %}
+          {{content}}
+      {% else %}
+          {{content}}
+          <div class="video">
+            <div class="video-wrapper">
+                <iframe src="{{page.source}}" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+      {% endif %}
+
       {% include disqus.html %}
   	</article>
 

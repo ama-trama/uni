@@ -10,14 +10,9 @@ type: videoesfera
 duration: 20min
 author: Amit Goswami
 author_url: http://www.amitgoswami.org/
+source: https://www.youtube.com/embed/Dza3edoKLNk
 ---
 
 <p>
 El mundo tiene sentido únicamente si establecemos su fundamento en la conciencia. El mundo está hecho de conciencia. El mundo es conciencia.
 </p>
-<div class="video">
-  <div class="video-wrapper">
-<iframe src="https://www.youtube.com/embed/Dza3edoKLNk" frameborder="0" allowfullscreen></iframe>
-  </div>
-</div>
-

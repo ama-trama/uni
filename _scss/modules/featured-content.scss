@@ -3,7 +3,8 @@
     background: #f9f9f9;
 
     .duration {
-        text-transform: uppercase;
+        font-size: 15px;
+        letter-spacing: 1px;
     }
 
     h3 {
@@ -40,7 +41,7 @@
 .owl-carousel .owl-item {
     float: left;
     padding: 0;
-    text-align: center;
+    //text-align: center;
 
     .item {
     	padding: 35px 22vw 60px;

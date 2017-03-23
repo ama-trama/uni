@@ -6,11 +6,11 @@ meta: En 2011 parte significativa de su energía provenía de fuentes solares, e
 source: http://pijamasurf.com/2016/05/de-como-portugal-paso-5-dias-usando-solo-energia-de-fuentes-renovables/
 comments: true
 featured: false
-category: naturaleza
 type: articulo
-element: aire
 duration: 3min
-tags: [destacado, corto, energia, portugal]
+category: naturaleza
+author: Pijama Surf
+author_url: http://pijamasurf.com/2016/05/de-como-portugal-paso-5-dias-usando-solo-energia-de-fuentes-renovables/
 ---
 
 <p class="hyphenate">

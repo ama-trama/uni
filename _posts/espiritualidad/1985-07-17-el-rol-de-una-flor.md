@@ -8,12 +8,7 @@ featured: false
 category: espiritualidad
 type: videoesfera
 duration: 25min
-tags: [ largo, entrevista, Krishnamurti]
+author: Proclus A
+author_url: https://www.youtube.com/channel/UCaqNwLaHAcb49ZHMibU4LfA
+source: https://www.youtube.com/embed/B8__nqRj49U
 ---
-
-<div class="video">
-  <div class="video-wrapper">
-	<iframe src="https://www.youtube.com/embed/B8__nqRj49U" frameborder="0" allowfullscreen></iframe>
-  </div>
-</div>
-

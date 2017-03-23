@@ -10,10 +10,5 @@ type: videoesfera
 duration: 8min
 author: Kurzgesagt
 author_url: https://www.youtube.com/channel/UCsXVk37bltHxD1rDPwtNM8Q
+source: https://www.youtube.com/embed/czgOWmtGVGs
 ---
-
-<div class="video">
-  <div class="video-wrapper">
-	<iframe src="https://www.youtube.com/embed/czgOWmtGVGs" frameborder="0" allowfullscreen></iframe>
-  </div>
-</div>
