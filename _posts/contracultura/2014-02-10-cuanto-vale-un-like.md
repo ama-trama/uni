@@ -3,7 +3,7 @@ layout: post
 icon: youtube play
 title: Cuanto vale un like
 meta: Como funcionan los likes de facebook y porque probablemente sea un fraude.
-featured: true
+featured: false
 comments: true
 category: contracultura
 type: videoesfera

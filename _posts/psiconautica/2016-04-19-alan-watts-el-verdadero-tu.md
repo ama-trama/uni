@@ -4,7 +4,7 @@ icon: youtube play
 title: El verdadero tú
 meta: Si estas listo para despertar, vas a despertar. Tu eres algo que todo el universo esta haciendo, de la misma manera que una ola es algo que todo el océano esta haciendo.
 comments: true
-featured: true
+featured: false
 category: psiconautica
 type: videoesfera
 duration: 4min
