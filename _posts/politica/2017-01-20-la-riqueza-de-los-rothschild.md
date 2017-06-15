@@ -74,6 +74,12 @@ El cuidadoso cultivo de sus riquezas con la ayuda de sus cinco hijos permitió a
 <p class="hyphenate">
 Avanzando hasta 2016, la familia Rothschild es una dinastía con una riqueza inimaginable que logra ocultarla de alguna manera en su mayor parte, nunca siendo públicamente reconocida como la familia más rica e influyente del mundo.
 </p>
+
+<div class="video">
+<div class="video-wrapper">
+<iframe src="https://www.youtube.com/embed/pk0kPt_CB80" frameborder="0" allowfullscreen=""></iframe>
+</div>
+</div>
  
 <p class="hyphenate">
 Al dividir su capital y sus posesiones entre los numerosos miembros de la familia, incluidos numerosos descendientes y herederos, ocasionalmente un solo miembro de la familia aparecerá en una lista de los mejores individuos del mundo.
