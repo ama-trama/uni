@@ -26,6 +26,17 @@
 @import 'layouts/post';
 @import 'layouts/search';
 
+.web-soon {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	text-transform: uppercase;
+	font-family: "Space Mono", monospace;
+	font-weight: 600;
+	background: #fff;
+	padding: 5px;
+
+}
 
 
 
