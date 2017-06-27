@@ -1,20 +1,26 @@
 <div class="controls">
-    <button type="button" class="ui button compact large " data-filter="all">
-      Todo
-    </button>
-    <button type="button" class="ui button compact large trama-naturaleza" data-filter=".trama-naturaleza">Naturaleza</button>
-    <button type="button" class="ui button compact large trama-ciencia" data-filter=".trama-ciencia">Ciencia</button>
-    <button type="button" class="ui button compact large trama-psiconautica" data-filter=".trama-psiconautica">Psiconautica</button>
-    <button type="button" class="ui button compact large trama-espiritualidad" data-filter=".trama-espiritualidad">Espiritualidad</button>
-    <button type="button" class="ui button compact large trama-contracultura" data-filter=".trama-contracultura">Contracultura</button>
-    <button type="button" class="ui button compact large trama-politica" data-filter=".trama-politica">Politica</button>
-    <button type="button" class="ui button compact large trama-videoesfera" data-filter=".trama-videoesfera">Videoesfera</button>
-    <button type="button" class="ui button compact large trama-articulo" data-filter=".trama-articulo">Articulos</button>
-    <button type="button" class="ui button compact large" data-sort="random">Arbitrario</button>
-    <button type="button" class="ui button compact large" data-sort="published-date:desc">
-        <i class='fa fa-chevron-down'></i>
-    </button>
-    <button type="button" class="ui button compact large" data-sort="published-date:asc">
-        <i class='fa fa-chevron-up'></i>
-    </button>
-  </div>
+  <button type="button" class="ui button compact large {{include.color-class}} " data-filter="all">
+  <i class="fa fa fa-refresh"></i>
+  <span> Todo </span>
+  </button>
+  <button type="button" class="ui button compact large {{include.color-class}} trama-videoesfera" data-filter=".trama-videoesfera">
+  <i class="fa fa fa-youtube-play"></i>
+  <span> Videoesfera</span>
+  </button>
+  <button type="button" class="ui button compact large {{include.color-class}} trama-articulo" data-filter=".trama-articulo">
+  <i class="fa fa fa-file-text-o"></i>
+  <span> Articulos</span>
+  </button>
+  <button type="button" class="ui button compact large" data-sort="published-date:desc">
+  <i class="fa fa-chevron-down"></i>
+  <span> Descendente</span>
+  </button>
+  <button type="button" class="ui button compact large" data-sort="published-date:asc">
+  <i class="fa fa-chevron-up"></i>
+  <span> Ascendente</span>
+  </button>
+  <button type="button" class="ui button compact large" data-sort="random">
+  <i class="fa fa-random"></i>
+  <span>Arbitrario</span>
+  </button>
+</div>

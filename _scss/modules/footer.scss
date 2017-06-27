@@ -4,7 +4,7 @@
   $medium-screen: 40em !default;
   $large-screen: 53.75em !default;
   $footer-background: #f9f9f9;
-  $footer-color: #333;
+  $footer-color: #999;
   $footer-link-color: $footer-color;
   $footer-disclaimer-color: $footer-color;
 
@@ -19,6 +19,7 @@
     .logo {
       position: relative;
       top: 0;
+      left: 0;
     }
 
     img {
@@ -70,15 +71,15 @@
 
   p {
     color: $footer-disclaimer-color;
-    font-size: 1em;
-    line-height: 1.8em;
-    margin: auto;
-    max-width: 35em;
-    text-align: justify;
-    -webkit-transition: all 1.8s cubic-bezier(0.7, 0, 0.3, 1);
-    -moz-transition: all 1.8s cubic-bezier(0.7, 0, 0.3, 1);
-    transition: all 1.8s cubic-bezier(0.7, 0, 0.3, 1);
-    margin-bottom: 15px;
+        font-size: 32px;
+        line-height: 1em;
+        margin: auto;
+        max-width: 35em;
+        text-align: center;
+        -webkit-transition: all 1.8s cubic-bezier(0.7, 0, 0.3, 1);
+        -moz-transition: all 1.8s cubic-bezier(0.7, 0, 0.3, 1);
+        transition: all 1.8s cubic-bezier(0.7, 0, 0.3, 1);
+        margin-bottom: 15px;
 
     &:hover {
       //transform: scale(1.5) translateY(0);

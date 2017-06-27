@@ -15,15 +15,15 @@
 		//margin-left: .5em;
 		position: absolute;
 		right: 15px;
-		top: 1em;
+		bottom: 1em;
 	}
 	a:visited span:after {
 		color: #fff;
 	}
 
 	.item {
-	    min-width: 48%;
-	    margin: 1em 1em 1em 0;
+		min-width: 49%;
+		margin: 1em 0;
 
 		@include media($ipad) {
 			width: 48%;

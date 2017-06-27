@@ -1,9 +1,43 @@
 ---
 layout: default
 ---
+
+{% if page.type contains 'articulo' %}
+<div class="KW_progressContainer">
+  <div class="KW_progressBar trama-{{page.categories}}">
+
+  </div>
+</div>
+<script>
+  $(window).load(function(){
+  $(window).scroll(function() {
+    var wintop = $(window).scrollTop(), docheight = $('article').height(), winheight = $(window).height();
+    console.log(wintop);
+    var totalScroll = (wintop/(docheight-winheight))*100;
+    console.log("total scroll" + totalScroll);
+    $(".KW_progressBar").css("width",totalScroll+"%");
+  });
+
+});
+</script>
+{% endif %}
+
+
+
+
 <div class="post-page">
+  <a href="javascript:history.back()" style="margin-left: 20px;" class="ui button compact small"><i class="fa fa-angle-left"></i> Volver</a>
+  <button type="button" class="ui button black compact small js-menu-trigger sliding-panel-button">
+    colapsar
+    </button>
+
+
   <aside class="js-menu sliding-panel-content">
     <div class="ui secondary vertical pointing menu">
+    <a class="item" href="/uni/feminismo-consciente/">
+      <i class="fa fa-female"></i>
+       Feminismo consciente
+    </a>
       <a class="item" href="/uni/espiritualidad/">
         <i class="fa fa-sun-o"></i>
         espiritualidad
@@ -29,6 +63,7 @@ layout: default
         naturaleza
       </a>
     </div>
+    {% include github-ama.html %}
   </aside>
 
   <section class="post trama-{{page.categories}}">
@@ -88,7 +123,7 @@ layout: default
   </section>
 
   <div class="home-post">
-    <div class="container" style="justify-content: center;">
+    <div class="container">
     {% if page.category == 'espiritualidad' %}
    	<h2 class="mono-space" style="width: 100%; text-align: center;">trama espiritualidad</h2>
    	{% include category-list.html category='espiritualidad' %}

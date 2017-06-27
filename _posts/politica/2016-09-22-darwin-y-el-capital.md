@@ -7,7 +7,7 @@ source: http://bivoslab.biocore.es/2016/09/22/darwin-y-el-capital/
 comments: true
 featured: true
 category: politica
-type: articulo
+type: videoesfera
 duration: 3min
 author: SpanishRevolution
 author_url: https://www.facebook.com/SpanishRevolution/

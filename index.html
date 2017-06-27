@@ -38,7 +38,9 @@ layout: default
           {% endif %}
           {{post.duration}}
           sobre
-          {{post.category}}
+          <a href="/uni/{{post.category}}">
+           {{post.category}}
+          </a> 
         </span>
       </h5>
       <a href="{{site.baseurl}}{{post.url}}" class="header">
@@ -59,26 +61,98 @@ layout: default
   {% endfor %}
 </div>
 
-<div class="home-post" style="padding-bottom: 100px;padding-left: 11px;">
+<aside class="js-menu sliding-panel-content" style="left: -270px;">
+  <div class="ui secondary vertical pointing menu">
+    <a class="item" href="/uni/tramas/">
+      <i class="fa fa-sitemap"></i>
+       Explorar trama
+    </a>
+    <a class="item" href="/uni/feminismo-consciente/">
+      <i class="fa fa-female"></i>
+       Feminismo consciente
+    </a>
+    <a class="item" href="/uni/espiritualidad/">
+      <i class="fa fa-sun-o"></i>
+      espiritualidad
+    </a>
+    <a class="item" href="/uni/contracultura/">
+      <i class="fa fa-fire"></i>
+      contracultura
+    </a>
+    <a class="item" href="/uni/psiconautica/">
+      <i class="fa fa-compass"></i>
+      psiconautica
+    </a>
+    <a class="item" href="/uni/politica/">
+      <i class="fa fa-street-view"></i>
+      politica
+    </a>
+    <a class="item" href="/uni/ciencia/">
+      <i class="fa fa-flask"></i>
+      ciencia
+    </a>
+    <a class="item" href="/uni/naturaleza/">
+      <i class="fa fa-leaf"></i>
+      naturaleza
+    </a>
+  </div>
+  {% include github-ama.html %}
+</aside>
+
+<div class="home-post" style="padding-bottom: 100px;padding: 0 11px;">
   <div class="container" style="max-width: 900px;margin: 0 auto;">
-    <h2 class="mono-space" style="text-align: center;width: 100%;font-size: 28px;margin-top: 35px;margin-bottom: 33px;">Últimas actualizaciones
+    <h2 class="mono-space" style="    text-align: left;
+    width: 100%;
+    font-size: 28px;
+    margin-top: 35px;
+    margin-bottom: 33px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;">Tramas
+      <a href="/uni/tramas/" style="font-size: 16px;color: #4183c4;">ver todas</a>
     </h2>
     
-    <div class="controls">
-    <button type="button" class="ui button compact large trama-naturaleza" data-filter=".trama-naturaleza">Naturaleza</button>
-    <button type="button" class="ui button compact large trama-ciencia" data-filter=".trama-ciencia">Ciencia</button>
-    <button type="button" class="ui button compact large trama-psiconautica" data-filter=".trama-psiconautica">Psiconautica</button>
-    <button type="button" class="ui button compact large trama-espiritualidad" data-filter=".trama-espiritualidad">Espiritualidad</button>
-    <button type="button" class="ui button compact large trama-contracultura" data-filter=".trama-contracultura">Contracultura</button>
-    <button type="button" class="ui button compact large trama-politica" data-filter=".trama-politica">Politica</button>
-  </div>
-    
+    <div class="controls" style="width: 100%;">
+      <button type="button" class="ui button compact large trama-matriarcado" data-filter=".trama-matriarcado">
+        <i class="fa fa-female"></i>
+      </button>
+      <button type="button" class="ui button compact large trama-naturaleza" data-filter=".trama-naturaleza">
+        <i class="fa fa-leaf"></i>
+      </button>
+      <button type="button" class="ui button compact large trama-ciencia" data-filter=".trama-ciencia">
+        <i class="fa fa-flask"></i>
+      </button>
+      <button type="button" class="ui button compact large trama-psiconautica" data-filter=".trama-psiconautica">
+        <i class="fa fa-compass"></i>
+      </button>
+      <button type="button" class="ui button compact large trama-espiritualidad" data-filter=".trama-espiritualidad">
+        <i class="fa fa-sun-o"></i>
+      </button>
+      <button type="button" class="ui button compact large trama-contracultura" data-filter=".trama-contracultura">
+        <i class="fa fa-fire"></i>
+      </button>
+      <button type="button" class="ui button compact large trama-politica" data-filter=".trama-politica">
+        <i class="fa fa-street-view"></i>
+      </button>
+    </div>
+
+    <h4 class="mix trama-matriarcado" style="display:none; width: 100%;text-transform: uppercase;padding-top: 27px; text-align: left;"> Feminismo consciente</h4>
+    <h4 class="mix trama-naturaleza" style="display:none; width: 100%;text-transform: uppercase;padding-top: 27px; text-align: left;">naturaleza</h4>
+    <h4 class="mix trama-ciencia" style="display:none; width: 100%;text-transform: uppercase;padding-top: 27px; text-align: left;">ciencia</h4>
+    <h4 class="mix trama-psiconautica" style="display:none; width: 100%;text-transform: uppercase;padding-top: 27px; text-align: left;">psiconautica</h4>
+    <h4 class="mix trama-espiritualidad" style="display:none; width: 100%;text-transform: uppercase;padding-top: 27px; text-align: left;">espiritualidad</h4>
+    <h4 class="mix trama-contracultura" style="display:none; width: 100%;text-transform: uppercase;padding-top: 27px; text-align: left;">contracultura</h4>
+    <h4 class="mix trama-politica" style="display:none; width: 100%;text-transform: uppercase;padding-top: 27px; text-align: left;">politica</h4>
     {% assign home-list = site.posts | where:"featured", false %}
     {% for post in home-list %}
       <div class="mix item trama-{{post.category}} trama-{{post.type}}" style="width:100%;" data-published-date="{{ post.date | %Y-%m-%d %H:%M+01:00 }}">
         <div class="content">
           <h3 class="mono-space">
-            {{post.category}} / {{post.type}}
+                      <a href="/uni/{{post.category}}">
+          {{post.category}}
+          </a> / {{post.type}}
           </h3>
           <a href="{{site.baseurl}}{{post.url}}" class="header">
             <span aria-hidden="true" class="post-status"></span>

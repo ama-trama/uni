@@ -34,11 +34,23 @@
 
 	position: fixed;
 	top: 5px;
-	left: 15px;
+	left: calc(50% - 55px);
+	width: 110px;
 
-    @include media($ipad) {
-    	top: -60px;
+
+	@include media($ipad) {
+		left: 65px;
+	}
+
+
+    @include media($mobile) {
+
+    	span {
+    		display: none;
+    	}
     }
+
+
 
 	svg {
 		height: 1em;
@@ -54,5 +66,12 @@
 		top: -7px;
 		left: -5px;
 		color: #333;
+
+		@include media($ipad) {
+			//top: -60px;
+			transform: rotate(90deg);
+		}
 	}
+
+
 }
