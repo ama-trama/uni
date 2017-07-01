@@ -8,7 +8,7 @@ comments: true
 featured: false
 type: articulo
 duration: 3min
-category: naturaleza
+category: ciencia
 author: Pijama Surf
 author_url: http://pijamasurf.com/2016/05/de-como-portugal-paso-5-dias-usando-solo-energia-de-fuentes-renovables/
 ---
