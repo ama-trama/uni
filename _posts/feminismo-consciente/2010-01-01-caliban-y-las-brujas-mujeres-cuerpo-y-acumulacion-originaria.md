@@ -30,5 +30,15 @@ author_url: https://www.traficantes.net/libros/caliban-y-la-bruja
 	Silvia Federici es profesora en la Hofstra University de Nueva York. Militante feminista desde 1960, fue una de las principales animadoras de los debates internacionales sobre la condición y la remuneración del trabajo doméstico. Durante la década de 1980 trabajó varios años como profesora en Nigeria, donde fue testigo de la nueva oleada de ataques contra los bienes comunes. Ambas trayectorias confluyen en esta obra.
 </p>
 
-<a href="https://www.traficantes.net/libros/caliban-y-la-bruja"> Editorial Traficantes de sueños </a> <br>
-<a href="https://www.traficantes.net/sites/default/files/pdfs/Caliban%20y%20la%20bruja-TdS.pdf" class="ui button black compact">Descargar libro</a>
+<div style="border-bottom: 1px solid #ddd;border-top: 1px solid #ddd;padding: 2em 0;margin-bottom: 15px;text-align: center;background: #f9f9f9;">
+		<a href="https://www.traficantes.net/libros/caliban-y-la-bruja"> Editorial Traficantes de sueños </a> <br>
+<a style="margin-top: 10px;" href="https://www.traficantes.net/sites/default/files/pdfs/Caliban%20y%20la%20bruja-TdS.pdf" class="ui button black compact">Descargar libro</a>
+</div>
+
+<div class="video">
+<div class="video-wrapper">
+    <iframe src="https://www.youtube.com/embed/WqkfCHc3xQA" frameborder="0" allowfullscreen></iframe>
+</div>
+</div>
+
+

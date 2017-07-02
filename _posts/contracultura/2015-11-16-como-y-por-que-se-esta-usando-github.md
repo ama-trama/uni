@@ -5,7 +5,7 @@ title: Cómo y por qué se está usando GitHub más allá del software
 meta: Esta plataforma ha conseguido convertirse en una herramienta casi imprescindible para cualquier proyecto de código abierto
 source: https://www.xataka.com/makers/como-y-por-que-se-esta-usando-github-mas-alla-del-software
 comments: true
-featured: true
+featured: false
 type: articulo
 duration: 8min
 category: contracultura

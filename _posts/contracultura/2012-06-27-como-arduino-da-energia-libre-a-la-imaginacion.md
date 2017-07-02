@@ -3,7 +3,7 @@ layout: post
 icon: youtube play
 title: Como Arduino logra una imaginación de código abierto
 meta: No se necesita el permiso de nadie para hacer grandes cosas.
-featured: true
+featured: false
 comments: true
 category: contracultura
 type: videoesfera

@@ -26,7 +26,7 @@ layout: default
 
 <div class="featured-container owl-carousel owl-theme">
   {% assign features = site.posts | where:"featured", true %}
-  {% for post in features limit:6 %}
+  {% for post in features limit:7 %}
   <div class="item trama-{{post.category}}" data-dot="trama-{{post.category}}">
     <div class="content">
       <h5 class="mono-space">

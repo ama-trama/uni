@@ -5,7 +5,7 @@ title: Darwin y el capital
 meta: Una breve reflexión sobre la adecuación del paradigma darwinista frente al modelo capitalista, sugiriendo que el darwinismo es un mero instrumento de las cúpulas de poder, mantenido por este en contradicción con la naturaleza cooperativa de la vida.
 source: http://bivoslab.biocore.es/2016/09/22/darwin-y-el-capital/
 comments: true
-featured: true
+featured: false
 category: politica
 type: videoesfera
 duration: 3min
