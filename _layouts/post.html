@@ -110,12 +110,12 @@ layout: default
       {% if page.type contains 'articulo' %}
           {{content}}
       {% else %}
-          {{content}}
           <div class="video">
             <div class="video-wrapper">
                 <iframe src="{{page.source}}" frameborder="0" allowfullscreen></iframe>
             </div>
           </div>
+          {{content}}
       {% endif %}
 
       {% include disqus.html %}
