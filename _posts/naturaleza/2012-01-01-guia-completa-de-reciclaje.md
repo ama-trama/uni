@@ -83,7 +83,7 @@ Por su alto poder contaminante, necesitan un tratamiento especial y pueden utili
 <b>Baterías de coche y moto</b> <br>
 Son muy contaminantes porque llevan líquidos corrosivos. De ellos se puede aprovechar el plomo, níquel y cadmio. <br><br>
 
-<b>Fluorescentes</b> <br> Contienen mercurio tóxico; por eso deben ser tratados por separado. De ellos se recupera el mercurio, aluminio y vidrio. Busqueda de puntos de recogida en España: http://www.ambilamp.es/recogida/puntos_de_recogida
+<b>Fluorescentes</b> <br> Contienen mercurio tóxico; por eso deben ser tratados por separado. De ellos se recupera el mercurio, aluminio y vidrio.
 <i>No depositar en estos contenedores: Bombillas de filamentos, incandescentes o convencionales, Halógenas.</i>
 <br><br>
 
@@ -110,7 +110,7 @@ Colchones, sofás, muebles Son objetos que hay que llevar a los puntos limpios p
 <b>Aparatos eléctricos y electrónicos</b> <br>
 Electrodomésticos de todo tipo, ordenadores, televisores, Suelen contener componentes peligrosos y, eliminando sus gases, las diferentes partes que los forman pueden reutilizarse para fabricar otros objetos. <br><br>
 
-<b>Metales</b>
+<b>Metales</b> <br>
 Somieres grandes, tornillos, grifos, pomos de puertas, Si contienen latón, plomo, cobre, hierro, estaño y aluminio, se pueden reciclar. <br><br>
 
 <b>Restos de podas</b><br>
@@ -129,44 +129,44 @@ Si usted quiere deshacerse de ropa o zapatos que están en buen estado, lo mejor
 <p class="hyphenate">
 	
 
-<b>Los tubos de pomadas </b><br> se consideran restos de medicamentos, así que se depositan en la farmacia o en el punto limpio. <br><br>
+<b>Los tubos de pomadas </b><br> Se consideran restos de medicamentos, así que se depositan en la farmacia o en el punto limpio. <br><br>
 
-<b>La grapadora </b><br> al punto limpio (contenedor de metales) o al contenedor de orgánicos. <br><br>
+<b>La grapadora </b><br> Al punto limpio (contenedor de metales) o al contenedor de orgánicos. <br><br>
 	
-<b>El casquillo de la bombilla, un enchufe o un ladrón </b><br> al punto limpio (contenedor de plástico). <br><br>
+<b>El casquillo de la bombilla, un enchufe o un ladrón </b><br> Al punto limpio (contenedor de plástico). <br><br>
 
-<b>Una bombilla </b><br> la clásica, de filamentos, en el orgánico; la de bajo consumo, al punto limpio (contenedor de aparatos eléctricos y electrónicos). <br><br>
+<b>Una bombilla </b><br> La clásica, de filamentos, en el orgánico; la de bajo consumo, al punto limpio (contenedor de aparatos eléctricos y electrónicos). <br><br>
 
-<b>Los esmaltes </b><br> primero se vacía bien el contenido y luego, si el tarro es de plástico o vidrio, al contenedor correspondiente. <br><br>
+<b>Los esmaltes </b><br> Primero se vacía bien el contenido y luego, si el tarro es de plástico o vidrio, al contenedor correspondiente. <br><br>
 
-<b>Un transformador </b><br> al punto limpio (contenedor de aparatos eléctricos y electrónicos). <br><br>
+<b>Un transformador </b><br> Al punto limpio (contenedor de aparatos eléctricos y electrónicos). <br><br>
 
-<b>Los cubiertos </b><br> al orgánico o al punto limpio (metales). <br><br>
+<b>Los cubiertos </b><br> Al orgánico o al punto limpio (metales). <br><br>
 
-<b>Pegamento </b><br> al orgánico. <br><br>
+<b>Pegamento </b><br> Al orgánico. <br><br>
 
-<b>Los cds </b><br> al orgánico. <br><br> Son muy difíciles de reciclar. <br><br>
+<b>Los cds </b><br> Al orgánico. <br><br> Son muy difíciles de reciclar. <br><br>
 
-<b>Un monedero de piel </b><br> al orgánico. <br><br> La piel es degradable. <br><br>
+<b>Un monedero de piel </b><br> Al orgánico. <br><br> La piel es degradable. <br><br>
 
-<b>El cepillo del pelo </b><br> al orgánico. <br><br>
+<b>El cepillo del pelo </b><br> Al orgánico. <br><br>
 
-<b>El móvil </b><br> al punto limpio (contenedor de aparatos eléctricos y electrónicos). <br><br>
+<b>El móvil </b><br> Al punto limpio (contenedor de aparatos eléctricos y electrónicos). <br><br>
 
-<b>Una pelota de fútbol de cuero </b><br> en el orgánico. <br><br>
+<b>Una pelota de fútbol de cuero </b><br> En el orgánico. <br><br>
 
-<b>Los auriculares </b><br> al orgánico o al punto limpio (contenedor de aparatos eléctricos y electrónicos). <br><br>
+<b>Los auriculares </b><br> Al orgánico o al punto limpio (contenedor de aparatos eléctricos y electrónicos). <br><br>
 
-<b>Los neumáticos del coche </b><br> reciben un tratamiento especial. El taller que ha sustituido los viejos por los nuevos tiene la obligación de quedarse con aquéllos y llevarlos al lugar correspondiente. Este servicio está cargado en el precio de los nuevos. <br><br>
+<b>Los neumáticos del coche </b><br> Reciben un tratamiento especial. El taller que ha sustituido los viejos por los nuevos tiene la obligación de quedarse con aquéllos y llevarlos al lugar correspondiente. Este servicio está cargado en el precio de los nuevos. <br><br>
 
-<b>Una lámpara </b><br> si es grande, iría al punto limpio (contenedor de voluminosos). Si no, se puede entregar en la recogida de muebles y trastos viejos del ayuntamiento. Se tiene que retirar siempre la bombilla.<br><br>
+<b>Una lámpara </b><br> Si es grande, iría al punto limpio (contenedor de voluminosos). Si no, se puede entregar en la recogida de muebles y trastos viejos del ayuntamiento. Se tiene que retirar siempre la bombilla.<br><br>
 
-<b>La escoba </b><br> al orgánico.<br><br>
+<b>La escoba </b><br> Al orgánico.<br><br>
 
 <b>Juguetes </b><br> Depende de cómo sean. Si son electrónicos, es mejor llevarlos a un punto limpio. Si se trata de un peluche, en el contenedor orgánico. Si es una muñeca, a pesar de ser de plástico, es mejor tirarla en el orgánico también, porque está formada por diferentes tipos de plásticos y eso dificulta el reciclado. <br><br>
 
-<b>Una percha de plástico </b><br> al punto limpio (contenedor de plástico) o en orgánico. <br><br>
+<b>Una percha de plástico </b><br> Al punto limpio (contenedor de plástico) o en orgánico. <br><br>
 
-<b>Un tapón de corcho </b><br> al orgánico. <br><br>
+<b>Un tapón de corcho </b><br> Al orgánico. <br><br>
 
 </p>
