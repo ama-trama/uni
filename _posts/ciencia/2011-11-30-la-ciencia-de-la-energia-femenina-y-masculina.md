@@ -4,7 +4,7 @@ icon: youtube play
 title: La ciencia detrás de las energías femenina y masculina
 meta:  En este video se discuten dos partes de un todo, lo femenino y lo masculino. No en el sentido de genero sino en términos de energia.
 comments: true
-featured: true
+featured: false
 category: ciencia
 type: videoesfera
 duration: 10min
