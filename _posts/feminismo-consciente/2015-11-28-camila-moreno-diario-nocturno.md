@@ -15,4 +15,6 @@ author_url: http://gladyspalmera.com/programas/camila-moreno-diario-nocturno/
 
 Diario Nocturno es la primera experiencia en radio como locutora de Camila Moreno. Su deseo es desmitificar el concepto tradicional de la mujer a través de las voces femeninas actuales de Latinoamérica. Este es un programa sin normas, misterioso, clandestino y casi místico, donde la cantautora chilena pretende hablar con claridad y sin tapujos de temas históricamente tabúes como la menstruación, el aborto, la mujer infiel, el amor salvaje o la relación femenina con la naturaleza.
 
-<iframe src="http://cloud.gladyspalmera.net/gladyscloud/widget-gladyscloud/index.php?id=62" height="1400" width="100%" frameborder="no" scrolling="no"></iframe>
+<div style="border-bottom: 1px solid #ddd;border-top: 1px solid #ddd;padding: 2em 0;text-align: center;">
+	<a class="ui button black" href="http://gladyspalmera.com/diario-nocturno/">Escuchar programa en Radio Gladys Palmera</a>
+</div>

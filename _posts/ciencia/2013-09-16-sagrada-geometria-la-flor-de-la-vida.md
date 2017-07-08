@@ -4,7 +4,7 @@ icon: youtube play
 title: Geometria Sagrada y la flor de la vida
 meta:  Escondido en lo profundo de nuestro pasado, yace un secreto que ha sido olvidado. El antiguo secreto de la Flor de la Vida.
 comments: true
-featured: true
+featured: false
 category: ciencia
 type: videoesfera
 duration: 11min
