@@ -4,7 +4,7 @@ icon: youtube play
 title: Guia completa de reciclaje
 meta: La basura ha sido siempre todo aquello que ya no nos sirve para nada. Sin embargo, ese concepto ha cambiado mucho en los últimos años y ahora todos somos conscientes de que esa basura sí puede tener una utilidad, se puede reciclar.
 comments: true
-featured: false
+featured: true
 category: naturaleza
 type: articulo
 duration: 10min
@@ -119,6 +119,10 @@ Está pensado sobre todo para las ciudadanos que trabajan el campo o tienen jard
 <b>Contenedores de ropa y zapatos</b> <br>
 Si usted quiere deshacerse de ropa o zapatos que están en buen estado, lo mejor es llevarlos a los contenedores que algunas ONGs distribuyen por su ciudad. Podrán servir para personas necesitadas. Si están en mal estado, lo mejor es tirarlo en el contenedor de residuos orgánicos.
 </p>
+
+<div class="video" style="text-align: center;">
+<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fnationmediacompany%2Fvideos%2F711285859057170%2F&width=500&show_text=true&height=604&appId" width="500" height="604" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+</div>
 
 
 

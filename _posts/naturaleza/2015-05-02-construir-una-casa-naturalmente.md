@@ -4,7 +4,7 @@ icon: youtube play
 title: Tecnologias Primitivas en como hacer tu casa
 meta: 
 comments: true
-featured: true
+featured: false
 category: naturaleza
 type: videoesfera
 duration: 11min
