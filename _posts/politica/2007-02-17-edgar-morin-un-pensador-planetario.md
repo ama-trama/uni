@@ -4,7 +4,7 @@ icon: youtube play
 title: Edgar Morin - Un pensador planetario
 meta: Referente obligado cuando nos referimos a las reformas necesarias para la resolución de los problemas fundamentales de la humanidad. Padre de la cosmovisión denominada Pensamiento Complejo.
 comments: true
-featured: true
+featured: false
 category: politica
 type: videoesfera
 duration: 54min
