@@ -4,7 +4,7 @@ icon: youtube play
 title: Guia completa de reciclaje
 meta: La basura ha sido siempre todo aquello que ya no nos sirve para nada. Sin embargo, ese concepto ha cambiado mucho en los últimos años y ahora todos somos conscientes de que esa basura sí puede tener una utilidad, se puede reciclar.
 comments: true
-featured: true
+featured: false
 category: naturaleza
 type: articulo
 duration: 10min
