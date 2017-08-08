@@ -5,7 +5,7 @@ title: ¿Puede Latinoamérica convertirse en una superpotencia energética mundi
 meta: 
 source: https://actualidad.rt.com/actualidad/242520-america-latina-energia-petroleo-gas-renovables
 comments: true
-featured: true
+featured: false
 category: politica
 type: articulo
 duration: 7min
