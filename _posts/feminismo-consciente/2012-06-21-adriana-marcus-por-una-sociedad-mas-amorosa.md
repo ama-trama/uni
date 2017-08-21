@@ -5,7 +5,7 @@ title: Adriana Marcus - por una sociedad más amorosa
 meta: Intervención realizada por la médica Adriana Marcus, el invierno del año 2012 en el marco del encuentro Nacer Sonriendo.
 source: https://www.youtube.com/embed/eLk-oiV2xHQ
 comments: true
-featured: true
+featured: false
 type: videoesfera
 duration: 8min
 category: feminismo-consciente

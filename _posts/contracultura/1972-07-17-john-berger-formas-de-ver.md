@@ -4,7 +4,7 @@ icon: youtube play
 title: John Berger - formas de ver
 meta: Este programa televisivo se propuso analizar cómo nuestros modos de ver afectan a nuestra forma de interpretar, tomando prestadas muchas ideas de Walter Benjamin.
 comments: true
-featured: true
+featured: false
 category: contracultura
 type: videoesfera
 duration: 30min
