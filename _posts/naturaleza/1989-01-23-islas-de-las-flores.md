@@ -4,7 +4,7 @@ icon: youtube play
 title: La isla de las flores
 meta: Considerado uno de los cortometrajes documentales más importantes de la historia, ganador en Berlín y en otros festivales.
 comments: true
-featured: true
+featured: false
 category: naturaleza
 type: videoesfera
 duration: 13min

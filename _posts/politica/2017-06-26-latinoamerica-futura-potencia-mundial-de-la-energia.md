@@ -2,7 +2,7 @@
 layout: post
 icon: file text
 title: ¿Puede Latinoamérica convertirse en una superpotencia energética mundial y superar al golfo Pérsico?
-meta: 
+meta: América Latina revela su potencial energético en la Expo Astaná 2017 con la aspiración de convertirse en uno de los centros mundiales de la materia en el futuro.
 source: https://actualidad.rt.com/actualidad/242520-america-latina-energia-petroleo-gas-renovables
 comments: true
 featured: false

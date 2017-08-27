@@ -4,7 +4,7 @@ icon: youtube play
 title: Maestro Kosen - el zazen del futuro
 meta: El Fukanzazengi del futuro o método universal para la práctica del Zen. Zazen, por el Maestro Kosen Thibaut, sucesor del Dharma del Maestro Taisen Deshimaru.
 comments: true
-featured: true
+featured: false
 category: espiritualidad
 type: videoesfera
 duration: 43min
