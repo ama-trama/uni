@@ -148,7 +148,7 @@ layout: default
     <h4 class="mix trama-contracultura" style="display:none; width: 100%;text-transform: uppercase;padding-top: 27px; text-align: left;">contracultura</h4>
     <h4 class="mix trama-politica" style="display:none; width: 100%;text-transform: uppercase;padding-top: 27px; text-align: left;">politica</h4>
     {% assign home-list = site.posts | where:"featured", false %}
-    {% for post in home-list limit:25 %}
+    {% for post in home-list limit:20 %}
       <div class="mix item trama-{{post.category}} trama-{{post.type}}" style="width:100%;" data-published-date="{{ post.date | %Y-%m-%d %H:%M+01:00 }}">
         <div class="content">
           <h3 class="mono-space">

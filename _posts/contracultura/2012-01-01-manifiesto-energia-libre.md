@@ -13,6 +13,10 @@ author: Open Source Everything Manifesto
 author_url: http://27pebh3agxku3bgo3k10r6k0-wpengine.netdna-ssl.com/wp-content/uploads/2014/07/CHAPTER3_OpenSourceEverythingManifesto.pdf
 ---
 
+<img src="https://ama-trama.github.io/manifiesto-energia-libre/img/logo-energia-libre.svg" style="    width: 200px !important;
+    position: relative;
+    top: 0;
+    left: calc(50% - 100px);">
 
 <p class="hyphenate" style="
     padding: 0 20px 20px 0;

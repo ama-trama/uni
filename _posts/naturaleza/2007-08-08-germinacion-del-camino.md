@@ -10,19 +10,20 @@ type: articulo
 duration: 28min
 author: AmaTrama
 author_url: https://ama-trama.github.io/germinacion-del-camino/
+featured_img: 
 ---
 
+<img src="https://ama-trama.github.io/germinacion-del-camino/img/logo-germinacion.svg" style="width: 100px !important;position: relative;top: 0;left: calc(50% - 50px);">
 
-
-<p>
+<p class="hyphenate">
 Se trata aquí de enumerar una serie de afecciones comunes, cuya resolución puede ser acompañada del uso de plantas para la salud. Una vez más vale la pena aclarar que se trata de un enfoque alopático en el medio doméstico, para resolver situaciones simples que no requieren de mayores y más complejos recursos.
 </p>
-<p>
+<p class="hyphenate">
 	
 
 Las plantas mencionadas son las cosmopolitas y nativas de esta región norpatagónica, y excluye otras que no se encuentran habitualmente en esta zona o que -si bien se consiguen en herbosterías- tienen su origen en otras latitudes.
 </p>
-<p>
+<p class="hyphenate">
 Nuestra experiencia muestra que en cada región, en cada nicho ecológico, hay especies para ayudar a todos nuestros problemas de salud, y no es imprescindible “importar” plantas de otros ecosistemas.
 </p>
 

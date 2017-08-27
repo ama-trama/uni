@@ -2,7 +2,7 @@
 layout: post
 icon: youtube play
 title: El clitoris - documental animado
-meta: Las mujeres tienen la suerte de contar con un órgano dedicado exclusivamente al placer. no lo margines.
+meta: Las mujeres cuentan con un órgano dedicado exclusivamente al placer. no lo marginemos.
 source: https://www.facebook.com/codigo.nuevo/
 comments: true
 featured: false
