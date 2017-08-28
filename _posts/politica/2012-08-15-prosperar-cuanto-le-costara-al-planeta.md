@@ -4,7 +4,7 @@ icon: youtube play
 title: Thrive (Prosperar) ¿Cuánto Le Costará Al Planeta?
 meta: Un documental poco convencional que levanta el velo sobre lo que realmente está pasando en nuestro mundo, siguiendo aguas arriba el dinero 
 comments: true
-featured: true
+featured: false
 category: politica
 type: videoesfera
 duration: 2hs 12min
