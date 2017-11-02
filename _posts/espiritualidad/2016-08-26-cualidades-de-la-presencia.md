@@ -9,6 +9,6 @@ category: espiritualidad
 type: videoesfera
 duration: 9min
 author: Soy Conciencia
-author_url: soyconciencia.com/maestros
+author_url: http://www.soyconciencia.com/maestros#info-leonard
 source: https://www.youtube.com/embed/Ki4-sh0tqjs
 ---
