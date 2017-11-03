@@ -4,7 +4,7 @@ icon: youtube play
 title: Mapuches - La fuerza de la tierra
 meta: La historia argentina desde el punto de vista del pueblo mapuche. Cómo fueron perdiendo su territorio y qué implica para su cosmovisión ser despojado de su entorno.
 comments: true
-featured: true
+featured: false
 category: naturaleza
 type: videoesfera
 duration: 28min
