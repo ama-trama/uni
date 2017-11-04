@@ -113,3 +113,8 @@ Con una suma de 2 miles de millones de dólares, la riqueza de la familia repres
 <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FAnnurTV%2Fvideos%2F1713361782038905%2F&show_text=0&width=560" frameborder="0" allowfullscreen=""></iframe>
 </div>
 </div>
+
+<p class="hyphenate">
+<b>Actualizacion 4/11:</b> Se agrego un video explicando la declaracion desde otra mirada.
+</p>
+
