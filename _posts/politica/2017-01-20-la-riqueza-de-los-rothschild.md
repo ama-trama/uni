@@ -107,3 +107,9 @@ Fuente
 Con una suma de 2 miles de millones de dólares, la riqueza de la familia representa cinco veces más que la riqueza combinada de los 8 principales multimillonarios del mundo, lo que significa que la familia Rothschild por si sola controla más riqueza que casi las tres cuartas de la población total del mundo...
 
 </p>
+
+<div class="video">
+<div class="video-wrapper">
+<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FAnnurTV%2Fvideos%2F1713361782038905%2F&show_text=0&width=560" frameborder="0" allowfullscreen=""></iframe>
+</div>
+</div>
