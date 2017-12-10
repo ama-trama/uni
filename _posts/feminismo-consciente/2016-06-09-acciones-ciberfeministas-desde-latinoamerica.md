@@ -5,7 +5,7 @@ title: Internet para armar - acciones ciberfeministas desde Latinoamérica
 meta:  Este artículo tiene una intención exploratoria, realzada por la voluntad de seguir cuestionando, a la vez que co-creando, esa “internet feminista” de la que comencé a oír en 2014 en el sudeste asiático con activistas de todo el mundo.
 source: http://www.marcha.org.ar/internet-armar-acciones-ciberfeministas-desde-latinoamerica/
 comments: true
-featured: true
+featured: false
 type: articulo
 duration: 9min
 category: feminismo-consciente
