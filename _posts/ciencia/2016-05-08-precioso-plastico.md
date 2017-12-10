@@ -14,8 +14,7 @@ source: https://www.youtube.com/embed/lLzj_s_guOg
 
 ---
 
-<p>&iquest;As&iacute; qu&eacute; estas interesado en Reciclar Pl&aacute;stico?
-	<br>Precious Plastic ha hecho una serie de videos para compartir las cosas m&aacute;s importantes que han aprendido a trav&eacute;s de los a&ntilde;os acerca del reciclado de pl&aacute;sticos.</p>
+<p>Precious Plastic ha hecho una serie de videos para compartir las cosas m&aacute;s importantes que han aprendido a trav&eacute;s de los a&ntilde;os acerca del reciclado de pl&aacute;sticos.</p>
 
 <p>Ellos comparten toda su informacion de manera libre y gratis.
 	<br>Te ense&ntilde;aran todo lo b&aacute;sico para que empieces a:
