@@ -4,7 +4,7 @@ icon: youtube play
 title: ¿Cúal es origen de Ubuntu? 
 meta: Ademas de ser el nombre de la distribucion de Linux mas popular, su raiz proviene de entre los nativos del extremo sur de África.  Es una actitud mental que surge de un dicho popular que en zulú significa “una persona es una persona a causa de los demás.”
 comments: true
-featured: true
+featured: false
 category: politica
 type: articulo
 duration: 2-3min
