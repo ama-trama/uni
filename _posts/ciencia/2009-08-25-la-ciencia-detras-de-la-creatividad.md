@@ -4,7 +4,7 @@ icon: youtube play
 title: La ciencia detrás de la creatividad
 meta: Dan Pink examiná los misterios de la motivación, empezando por lo que los cientificos sociales saben pero la mayoría de los empresarios no. La recompensa tradiciondal no es tan efectiva como imaginamos.
 comments: true
-featured: true
+featured: false
 category: ciencia
 type: videoesfera
 duration: 18min

@@ -5,7 +5,7 @@ title: ¿Lista para decidir? ¡El software libre es para vos!
 meta:  ¿Imaginas encender tu computadora y en lugar de que se retarde en abrir el entorno de Windows y sus ventanas apenas demore unos segundos y se abra un ambiente fácil de utilizar sustentado por motivaciones comunitarias de una revolución tecnológica más justa?
 source: http://www.marcha.org.ar/lista-decidir-software-libre-vos/
 comments: true
-featured: true
+featured: false
 type: articulo
 duration: 11min
 category: contracultura
