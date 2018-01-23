@@ -1,3 +1,4 @@
+
 .nav-search {
 	position: absolute;
 	top: 0;
@@ -51,5 +52,44 @@
 		}
 
 
+	}
+}
+
+.top-bar {
+	.nav-search {
+		background: #fff;
+		position: relative;
+		padding: .5em 0;
+		left: -4px;
+
+		@include media($mobile) {
+		    input[type=text] {
+		    	display: none;
+		    }
+		}
+
+		input[type=text] {
+			width: 110px;
+			margin: 0;
+		}
+
+		.search-btn::before {
+			display: inline-block;
+			font: normal normal normal 14px/1 FontAwesome;
+			content: "\f002";
+			position: relative;
+			top: -2px;
+			left: 35px;
+			color: #fff;
+			pointer-events: none;
+
+
+		}
+
+		.search-btn {
+			input {
+				padding: 10px 20px;
+			}
+		}
 	}
 }
