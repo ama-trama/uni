@@ -10,14 +10,21 @@ layout: default
 </div>
 {% endif %}
 
-<div class="post-page {% if page.featured %}post-featured{% endif %}">
-  <a href="javascript:history.back()" style="margin-left: 20px;" class="ui button compact small"><i class="fa fa-angle-left"></i> Volver</a>
+<div class="post-page post-featured">
+{% if page.type contains 'videoesfera' %}
+  <div class="video">
+    <div class="video-wrapper">
+        <iframe src="{{page.source}}?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+{% endif %}
+
   <button type="button" class="ui button black compact small js-menu-trigger sliding-panel-button">
     colapsar
     </button>
 
 
-  <aside class="js-menu sliding-panel-content {% if page.featured %}aside-featured{% endif %}">
+  <aside class="js-menu sliding-panel-content aside-featured">
     <div class="ui secondary vertical pointing menu">
     <a class="item" href="/uni/feminismo-consciente/">
       <i class="fa fa-venus-mars"></i>
@@ -52,6 +59,7 @@ layout: default
   </aside>
 
   <section class="post trama-{{page.categories}}">
+    <a href="javascript:history.back()" style="margin-left: 20px;" class="ui button compact small"><i class="fa fa-angle-left"></i> Volver</a>
   	<div class="page-meta" style="text-align: center; margin-bottom: 15px; color: #999 !important;">
   		<div class="source mono-space" style="margin-bottom: 8px;">
   			via <a href="{{page.author_url}}" target="_blank">{{page.author}}</a> / 
@@ -86,17 +94,7 @@ layout: default
 
   	<h3 class="mono-space" style="text-align: center; margin-bottom: 25px;">{{page.title}}</h3>
   	<article>
-
-      {% if page.type contains 'articulo' %}
-          {{content}}
-      {% else %}
-          <div class="video">
-            <div class="video-wrapper">
-                <iframe src="{{page.source}}" frameborder="0" allowfullscreen></iframe>
-            </div>
-          </div>
-          {{content}}
-      {% endif %}
+        {{content}}
 
       {% include disqus.html %}
   	</article>

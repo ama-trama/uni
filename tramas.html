@@ -2,6 +2,16 @@
 layout: default
 ---
 
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.js"></script>
+
+
+<script type="text/javascript">
+  $("[data-fancybox]").fancybox({
+    toolbar : false,
+  });
+</script>
+
 <div class="category-page tramas">
 
 <div class="home-post ">
@@ -13,23 +23,21 @@ layout: default
     <div class="item trama-{{post.category}} trama-{{post.type}} {% if post.featured %}trama-destacada{% endif %}" data-published-date="" style="width: 48%;">
       {% if post.featured %}
       {% if post.type contains 'videoesfera' %}
-        <div class="video">
-          <div class="video-wrapper">
-              <iframe src="{{post.source}}" frameborder="0" allowfullscreen></iframe>
+        <a class="video" data-fancybox href="{{post.source}}">
+          <div class="video-wrapper" style=" pointer-events: none; cursor: default;">
+              <iframe src="{{post.source}}?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
           </div>
-        </div>
+        </a>
       {% endif %}
       {% endif %}
 
+
       <div class="content">
         <h3 class="mono-space">
-          {% if post.featured %}
-            <small>Destacado</small> <br>
-          {% endif %}
          <a href="/uni/{{post.category}}">
           {{post.category}}
           </a> / <a href="/uni/search/?query={{post.type}}">{{post.type}} </a>
-         
+          
         </h3>
         <a href="{{site.baseurl}}{{post.url}}" class="header">
           <span aria-hidden="true" class="post-status"></span>
@@ -47,26 +55,7 @@ layout: default
         <div class="description">
           {{post.meta}}
         </div>
-        <time datetime="">
-          <!-- Whitespace added for readability -->
-          {% assign m = post.date | date: "%-m" %}
-          {{ post.date | date: "%-d" }}
-          {% case m %}
-          {% when '1' %}Ene
-          {% when '2' %}Feb
-          {% when '3' %}Mar
-          {% when '4' %}Abr
-          {% when '5' %}May
-          {% when '6' %}Jun
-          {% when '7' %}Jul
-          {% when '8' %}Ago
-          {% when '9' %}Sep
-          {% when '10' %}Oct
-          {% when '11' %}Nov
-          {% when '12' %}Dic
-          {% endcase %}
-          {{ post.date | date: "%Y" }}
-        </time>
+        
       </div>
     </div>
     {%endfor %}
