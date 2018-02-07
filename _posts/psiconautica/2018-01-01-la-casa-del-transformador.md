@@ -2,7 +2,7 @@
 layout: post
 icon: youtube play
 title: LA CASA DEL TRANSFORMADOR - un programa de Martín Buscaglia
-meta: La Casa del Transformador es un programa de música y palabras que conduce Martín Buscaglia desde Montevideo, Uruguay. Es la casa embrujada del barrio. Si la puerta parece cerrada, recordad que siempre hay una llave debajo del felpudo.
+meta: Programa de música y palabras. Si la puerta parece cerrada, recordad que siempre hay una llave debajo del felpudo.
 source: https://www.youtube.com/embed/FDZMsIuzwLs
 comments: true
 featured: true

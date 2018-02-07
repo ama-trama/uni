@@ -6,6 +6,8 @@
 
 .home-post {
 
+	
+
 	a span:after {
 		content: 'Nuevo!';
 		font-size: .7em;
@@ -24,6 +26,7 @@
 	.item {
 		min-width: 49%;
 		margin: 1em 0;
+		
 
 		&.trama-destacada {
 			border: 15px solid !important;
@@ -31,7 +34,43 @@
 			
 		}
 
-		
+		&.trama-espiritualidad {
+			.header:hover {
+				color: #fff;
+				background: #fbbd08;
+			}
+		}
+		&.trama-contracultura {
+			.header:hover {
+				color: #fff;
+				background: #f2910a;
+			}
+		}
+		&.trama-psiconautica {
+			.header:hover {
+				color: #fff;
+				background: #e84545;
+			}
+		}
+		&.trama-politica {
+			.header:hover {
+				color: #fff;
+				background: #951556;
+			}
+		}
+
+		&.trama-ciencia {
+			.header:hover {
+				color: #fff;
+				background: #283996;
+			}
+		}
+		&.trama-naturaleza {
+			.header:hover {
+				color: #fff;
+				background: #25a55f;
+			}
+		}
 
 		@include media($ipad) {
 			width: 48%;
@@ -99,6 +138,17 @@
 		font-family: $headerFont;
 		font-size: 20px;
 		font-weight: 600;
+		border-bottom: 2px solid;
+		line-height: 35px;
+		padding-bottom: 3px;
+
+		-webkit-transition: all .4s cubic-bezier(0.7,0,.3,1);
+		-moz-transition: all .4s cubic-bezier(0.7,0,.3,1);
+		transition: all .4s cubic-bezier(0.7,0,.3,1);
+
+	
+
+		
 	}
 
 

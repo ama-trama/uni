@@ -122,9 +122,9 @@ layout: default
       <div class="mix item trama-{{post.category}} trama-{{post.type}}" style="width:31%;margin: 1%;min-width: 31%;" data-published-date="">
         <div class="content">
           <h3 class="mono-space">
-                      <a href="/uni/{{post.category}}">
+          <a href="/uni/{{post.category}}">
           {{post.category}}
-          </a> / {{post.type}}
+          </a> / <a href="/uni/search/?query={{post.type}}">{{post.type}} </a> 
           </h3>
           <a href="{{site.baseurl}}{{post.url}}" class="header">
             <span aria-hidden="true" class="post-status"></span>

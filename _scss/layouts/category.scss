@@ -13,19 +13,63 @@
 
 
     &.tramas {
+        
+        .container {
+            justify-content: flex-start;
+
+            .item {
+                min-width: 48%;
+                margin: 1%;
+            }
+        }
+
+       
+
+        .trama-destacada {
+            width: 100% !important;
+            .description {
+                display: none;
+            }
+        }
+
         .item.trama-videoesfera {
             
             
             display: flex;
             width: 100%;
-            align-items: center;
+            align-items: flex-start;
             border: 1px solid;
+            flex-direction: row-reverse;
+
+            @include media($ivertical) {
+                flex-direction: column;
+            }
 
             .content {
                 flex: 1;
                 border: none;
+
+                @include media($ivertical) {
+                    width: 100%;
+                }
+                
             }
+
+           
             
+            .video {
+                width: 304px;
+                padding: 0;
+
+                @include media($ivertical) {
+                    width: 100%;padding: 0;
+                }
+
+                .video-wrapper {
+                    margin: 0;
+                }
+                
+            }
         }
     }
 }
