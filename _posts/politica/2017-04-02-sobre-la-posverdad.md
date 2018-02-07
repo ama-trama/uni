@@ -4,7 +4,7 @@ icon: youtube play
 title: Darío Sztajnszrajber sobre la Posverdad
 meta: Darío analiza la política, el poder y el discurso de posverdad ejemplificando con la metodología de los medios de prensa tomando un concepto de Foucault
 comments: true
-featured: true
+featured: false
 category: politica
 type: videoesfera
 duration: 8min

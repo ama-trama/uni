@@ -4,7 +4,7 @@ icon: youtube play
 title: Somos todos uno
 meta: Todos somos parte de la naturaleza. Si los europeos hubiesen vivido la vida de los pueblos originarios cuando vinieron aún estariamos bebiendo nuestra agua. Por que tanto ella como el aire son sagrados.
 comments: true
-featured: true
+featured: false
 category: naturaleza
 type: videoesfera
 duration: 10min

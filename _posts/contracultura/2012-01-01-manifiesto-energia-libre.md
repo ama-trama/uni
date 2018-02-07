@@ -5,7 +5,7 @@ title: Manifiesto de código abierto
 meta: Estamos acercándonos al final de un proceso histórico de más de 5.000 años en el que la sociedad humana creció en escala pero abandonando las costumbres de como trabajar en comunidad que los pueblos originarios mantienen como su sabiduría.
 source: https://ama-trama.github.io/manifiesto-energia-libre/
 comments: true
-featured: true
+featured: false
 type: articulo
 duration: 8min
 category: contracultura

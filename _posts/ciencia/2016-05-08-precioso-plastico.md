@@ -4,7 +4,7 @@ icon: youtube play
 title: ¿Así qué estas interesado en Reciclar Plástico?
 meta: Precious Plastic ha hecho una serie de videos para compartir las cosas más importantes que han aprendido a través de los años acerca del reciclado de plásticos.
 comments: true
-featured: true
+featured: false
 category: ciencia
 type: videoesfera
 duration: 3min

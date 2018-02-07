@@ -4,7 +4,7 @@ icon: youtube play
 title: Simon Sinek - Entendiendo el Juego que jugamos
 meta: El habla sobre la tecnologia, los millenials y la importancia de la empatia.
 comments: true
-featured: true
+featured: false
 category: contracultura
 type: videoesfera
 duration: 30min

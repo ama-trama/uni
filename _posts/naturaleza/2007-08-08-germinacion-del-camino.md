@@ -4,7 +4,7 @@ icon: youtube play
 title: Germinacion del camino
 meta: Se trata aquí de enumerar una serie de afecciones comunes, cuya resolución puede ser acompañada del uso de plantas para la salud. 
 comments: true
-featured: true
+featured: false
 category: naturaleza
 type: articulo
 duration: 28min
