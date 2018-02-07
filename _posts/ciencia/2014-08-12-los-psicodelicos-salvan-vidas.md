@@ -3,7 +3,7 @@ layout: post
 icon: youtube play
 title: Los Psicodélicos están salvando vidas
 meta: Los últimos avances en ciencia desmienten todo lo que nos han dicho sobre los psicodelicos. Sustancias que en realidad liberan el alma y fueron usadas como medicinas sagradas.
-featured: false
+featured: true
 comments: true
 category: ciencia
 type: videoesfera

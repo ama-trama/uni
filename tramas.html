@@ -2,18 +2,25 @@
 layout: default
 ---
 
-<div class="category-page">
-<div class="header-actions">
-  <h3 class="mono-space">Trama completa <span>({{ site.posts | size }})</span></h3>
-   {% include mixitup-controls.html %}
-</div>
-<div class="home-post">
+<div class="category-page tramas">
+
+<div class="home-post ">
 
 
   <div class="container">
     <div class="fail-message"><span>Estos filtros no dieron resultado.</span></div>
     {% for post in site.posts %}
-    <div class="item mix trama-{{post.category}} trama-{{post.type}} {% if post.featured %}trama-destacada{% endif %}" data-published-date="">
+    <div class="item trama-{{post.category}} trama-{{post.type}} {% if post.featured %}trama-destacada{% endif %}" data-published-date="" style="width: 100%;">
+      {% if post.featured %}
+      {% if post.type contains 'videoesfera' %}
+        <div class="video" style="width: 300px;padding: 15px;">
+          <div class="video-wrapper">
+              <iframe src="{{post.source}}" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      {% endif %}
+      {% endif %}
+
       <div class="content">
         <h3 class="mono-space">
           {% if post.featured %}

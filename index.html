@@ -26,7 +26,7 @@ layout: default
 
 <div class="featured-container owl-carousel owl-theme">
   {% assign features = site.posts | where:"featured", true %}
-  {% for post in features limit:7 %}
+  {% for post in features limit:3 %}
   <div class="item trama-{{post.category}}" data-dot="trama-{{post.category}}">
     <div class="content">
       <h5 class="mono-space">
@@ -101,8 +101,8 @@ layout: default
 
 </aside>
 
-<div class="home-post" style="padding-bottom: 100px;padding: 0 11px;">
-  <div class="container" style="max-width: 900px;margin: 0 auto;">
+<div class="home-post" style="padding-bottom: 100px;padding: 0 11px;background: #f9f9f9;">
+  <div class="container" style="max-width: 1200px;margin: 0 auto;background: #fff;padding: 1em;">
     <h2 class="mono-space" style="    text-align: left;
     width: 100%;
     font-size: 28px;
@@ -116,40 +116,10 @@ layout: default
       <a href="/uni/tramas/" style="font-size: 16px;color: #4183c4;">ver todas <span>({{ site.posts | size }})</span></a>
     </h2>
     
-    <div class="controls" style="width: 100%;">
-      <button type="button" class="ui button compact large trama-feminismo-consciente" data-filter=".trama-feminismo-consciente">
-        <i class="fa fa-venus-mars" style="font-size: 20px;"></i>
-      </button>
-      <button type="button" class="ui button compact large trama-naturaleza" data-filter=".trama-naturaleza">
-        <i class="fa fa-leaf" style="font-size: 20px;"></i>
-      </button>
-      <button type="button" class="ui button compact large trama-ciencia" data-filter=".trama-ciencia">
-        <i class="fa fa-flask" style="font-size: 20px;"></i>
-      </button>
-      <button type="button" class="ui button compact large trama-psiconautica" data-filter=".trama-psiconautica">
-        <i class="fa fa-compass" style="font-size: 20px;"></i>
-      </button>
-      <button type="button" class="ui button compact large trama-espiritualidad" data-filter=".trama-espiritualidad">
-        <i class="fa fa-sun-o" style="font-size: 20px;"></i>
-      </button>
-      <button type="button" class="ui button compact large trama-contracultura" data-filter=".trama-contracultura">
-        <i class="fa fa-fire" style="font-size: 20px;"></i>
-      </button>
-      <button type="button" class="ui button compact large trama-politica" data-filter=".trama-politica">
-        <i class="fa fa-street-view" style="font-size: 20px;"></i>
-      </button>
-    </div>
-
-    <h4 class="mix trama-feminismo-consciente" style="display:none; width: 100%;text-transform: uppercase;padding-top: 27px; text-align: left;"> Feminismo consciente</h4>
-    <h4 class="mix trama-naturaleza" style="display:none; width: 100%;text-transform: uppercase;padding-top: 27px; text-align: left;">naturaleza</h4>
-    <h4 class="mix trama-ciencia" style="display:none; width: 100%;text-transform: uppercase;padding-top: 27px; text-align: left;">ciencia</h4>
-    <h4 class="mix trama-psiconautica" style="display:none; width: 100%;text-transform: uppercase;padding-top: 27px; text-align: left;">psiconautica</h4>
-    <h4 class="mix trama-espiritualidad" style="display:none; width: 100%;text-transform: uppercase;padding-top: 27px; text-align: left;">espiritualidad</h4>
-    <h4 class="mix trama-contracultura" style="display:none; width: 100%;text-transform: uppercase;padding-top: 27px; text-align: left;">contracultura</h4>
-    <h4 class="mix trama-politica" style="display:none; width: 100%;text-transform: uppercase;padding-top: 27px; text-align: left;">politica</h4>
+   
     {% assign home-list = site.posts | where:"featured", false %}
-    {% for post in home-list limit:20 %}
-      <div class="mix item trama-{{post.category}} trama-{{post.type}}" style="width:100%;" data-published-date="">
+    {% for post in home-list limit:9 %}
+      <div class="mix item trama-{{post.category}} trama-{{post.type}}" style="width:31%;margin: 1%;min-width: 31%;" data-published-date="">
         <div class="content">
           <h3 class="mono-space">
                       <a href="/uni/{{post.category}}">

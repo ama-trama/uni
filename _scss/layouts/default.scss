@@ -26,8 +26,12 @@
 		margin: 1em 0;
 
 		&.trama-destacada {
-			border: 15px solid;
+			border: 15px solid !important;
+
+			
 		}
+
+		
 
 		@include media($ipad) {
 			width: 48%;
