@@ -8,6 +8,10 @@
     -moz-transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
     transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
 
+    &.post-featured {
+        padding-left: 0;
+    }
+
     @include media($ipad) {
     	padding-left: 0;
     }

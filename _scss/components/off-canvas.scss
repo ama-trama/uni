@@ -25,6 +25,10 @@
 	//z-index: 999999;
 	//width: 220px;
 
+  &.aside-featured {
+    left: -270px;
+  }
+
   ul {
     padding: 0;
     margin: 0;

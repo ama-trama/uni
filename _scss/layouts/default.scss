@@ -25,6 +25,10 @@
 		min-width: 49%;
 		margin: 1em 0;
 
+		&.trama-destacada {
+			border: 15px solid;
+		}
+
 		@include media($ipad) {
 			width: 48%;
 		}

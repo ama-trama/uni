@@ -8,31 +8,16 @@ layout: default
 
   </div>
 </div>
-<script>
-  $(window).load(function(){
-  $(window).scroll(function() {
-    var wintop = $(window).scrollTop(), docheight = $('article').height(), winheight = $(window).height();
-    console.log(wintop);
-    var totalScroll = (wintop/(docheight-winheight))*100;
-    console.log("total scroll" + totalScroll);
-    $(".KW_progressBar").css("width",totalScroll+"%");
-  });
-
-});
-</script>
 {% endif %}
 
-
-
-
-<div class="post-page">
+<div class="post-page {% if page.featured %}post-featured{% endif %}">
   <a href="javascript:history.back()" style="margin-left: 20px;" class="ui button compact small"><i class="fa fa-angle-left"></i> Volver</a>
   <button type="button" class="ui button black compact small js-menu-trigger sliding-panel-button">
     colapsar
     </button>
 
 
-  <aside class="js-menu sliding-panel-content">
+  <aside class="js-menu sliding-panel-content {% if page.featured %}aside-featured{% endif %}">
     <div class="ui secondary vertical pointing menu">
     <a class="item" href="/uni/feminismo-consciente/">
       <i class="fa fa-venus-mars"></i>
@@ -153,5 +138,17 @@ layout: default
 
 </div>
 
+<script>
+  $(window).load(function(){
+  $(window).scroll(function() {
+    var wintop = $(window).scrollTop(), docheight = $('article').height(), winheight = $(window).height();
+    console.log(wintop);
+    var totalScroll = (wintop/(docheight-winheight))*100;
+    console.log("total scroll" + totalScroll);
+    $(".KW_progressBar").css("width",totalScroll+"%");
+  });
+
+});
+</script>
 
 
