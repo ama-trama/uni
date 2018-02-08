@@ -14,8 +14,9 @@ author_url: http://gladyspalmera.com/la-casa-del-transformador/
 ---
 
 <div style="border-bottom: 1px solid #ddd;border-top: 1px solid #ddd;padding: 2em 0;text-align: center;">
-	<a class="ui button black" href="http://gladyspalmera.com/diario-nocturno/">Escuchar programa en Radio Gladys Palmera</a>
+	<a class="ui button" style="background: #e84545; color: #fff;" href="http://gladyspalmera.com/la-casa-del-transformador/" target="_blank">Escuchar programa en Radio Gladys Palmera</a>
 </div>
+<br>
 
 La Casa del Transformador es un programa de música y palabras que conduce Martín Buscaglia desde Montevideo, Uruguay. Es la casa embrujada del barrio. Si la puerta parece cerrada, recordad que siempre hay una llave debajo del felpudo.
 
@@ -27,12 +28,3 @@ Es horrorosamente irresistible.
 
 
 <iframe src="http://cloud.gladyspalmera.net/gladyscloud/widget-gladyscloud/index.php?id=72" height="1400" width="100%" frameborder="no" scrolling="no"></iframe>
-
-
-
-
-<div class="video">
-	<div class="video-wrapper">
-	<iframe src="https://www.youtube.com/embed/FDZMsIuzwLs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-	</div>
-</div>

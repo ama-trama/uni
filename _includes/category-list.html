@@ -4,9 +4,6 @@
     <div class="item mix trama-{{post.category}} trama-{{post.type}} {% if post.featured %}trama-destacada{% endif %}" data-published-date="{{ post.date | %Y-%m-%d %H:%M+01:00 }}">
       <div class="content">
         <h3 class="mono-space">
-         {% if post.featured %}
-            <small>Destacado</small> <br>
-          {% endif %}
           {{post.category}} / {{post.type}}
         </h3>
         <a href="{{site.baseurl}}{{post.url}}" class="header">
