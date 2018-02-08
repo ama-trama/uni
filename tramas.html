@@ -20,7 +20,7 @@ layout: default
   <div class="container">
     <div class="fail-message"><span>Estos filtros no dieron resultado.</span></div>
     {% for post in site.posts %}
-    <div class="item trama-{{post.category}} trama-{{post.type}} {% if post.featured %}trama-destacada{% endif %}" data-published-date="" style="width: 48%;">
+    <div class="item trama-{{post.category}} trama-{{post.type}} {% if post.featured %}trama-destacada{% endif %}" data-published-date="" style="width: 48%; margin-top: 15px;">
       {% if post.featured %}
       {% if post.type contains 'videoesfera' %}
         <a class="video" data-fancybox href="{{post.source}}">
