@@ -9,18 +9,28 @@
 	
 
 	a span:after {
-		content: 'Nuevo!';
+		content: 'Pendiente!';
 		font-size: .7em;
 		vertical-align: middle;
 		display: inline-block;
 		color: #333;
 		//margin-left: .5em;
 		position: absolute;
-		right: 15px;
-		bottom: 1em;
+		left: 15px;
+		bottom: 5px;
 	}
 	a:visited span:after {
-		color: #fff;
+		color: #fff;;
+		opacity: 0;
+		display: none;
+		visibility: hidden;
+		pointer-events: none;
+		cursor: default;
+	}
+
+	.post-status {
+		pointer-events: none;
+		cursor: default;
 	}
 
 	.item {
@@ -129,7 +139,7 @@
 
 	.description {
 		color: #333;
-		margin: 10px 0;
+		margin: 10px 0 25px;
 		font-size: 16px;
 		line-height: 23px;
 	}

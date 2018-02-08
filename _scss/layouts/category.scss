@@ -37,6 +37,12 @@
             .description {
                 display: none;
             }
+
+            a span:after {
+                left: unset;
+                right: 15px;
+                bottom: 15px;
+            }
         }
 
         .item.trama-videoesfera {
