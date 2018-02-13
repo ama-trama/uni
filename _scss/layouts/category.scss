@@ -45,6 +45,11 @@
             }
         }
 
+        .trama-articulo.trama-destacada{
+           width: 48% !important;
+           overflow: hidden;
+        }
+
         .item.trama-videoesfera {
             
             
@@ -83,6 +88,8 @@
                 }
                 
             }
+
+
         }
     }
 }

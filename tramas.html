@@ -28,6 +28,16 @@ layout: default
               <iframe src="{{post.source}}?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
           </div>
         </a>
+        {% else %}
+         <a class="video" style="
+    width: 100%;
+    display: inline-block;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+">
+            <img src="{{post.featured-img}}" alt="" width="100%">
+        </a>
       {% endif %}
       {% endif %}
 
