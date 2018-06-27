@@ -3,7 +3,7 @@ layout: post
 icon: youtube play
 title: El ADN y las Emociones
 meta: Se ha demostrado que nuestras emociones tienen una frecuencia vibratoria, y que los humanos experimentamos solamente Amor o Miedo. El resto de las emociones desprenden de estas dos.
-featured: true
+featured: false
 comments: true
 category: ciencia
 type: videoesfera
