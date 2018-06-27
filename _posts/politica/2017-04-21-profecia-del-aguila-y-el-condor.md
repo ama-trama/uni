@@ -5,7 +5,7 @@ title: Profecía del Aguila y el Condor
 meta: Una hermosa e interesante leyenda que revela los cambios futuros en nuestra sociedad. Un mensaje de 2.000 años de antiguedad para el futuro 
 source: https://www.bibliotecapleyades.net/profecias/esp_profecia58.htm
 comments: true
-featured: true
+featured: false
 category: politica
 type: articulo
 duration: 7min
