@@ -5,10 +5,10 @@ title: LA CASA DEL TRANSFORMADOR - un programa de Martín Buscaglia
 meta: Programa de música y palabras. Si la puerta parece cerrada, recordad que siempre hay una llave debajo del felpudo.
 source: https://www.youtube.com/embed/FDZMsIuzwLs
 comments: true
-featured: false
+featured: true
 category: psiconautica
 type: videoesfera
-duration: 59min
+duration: ∞
 author: Gladys Palmera
 author_url: http://gladyspalmera.com/la-casa-del-transformador/
 ---
