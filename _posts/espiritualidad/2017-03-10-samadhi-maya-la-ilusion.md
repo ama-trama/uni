@@ -4,7 +4,7 @@ icon: youtube play
 title: Samadhi - Maya la ilusión del yo
 meta: 
 comments: true
-featured: true
+featured: false
 category: espiritualidad
 type: videoesfera
 duration: 59min
