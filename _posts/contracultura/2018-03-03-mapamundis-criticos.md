@@ -9,6 +9,7 @@ featured: true
 type: articulo
 duration: 5min
 category: contracultura
+featured-img: http://www.iconoclasistas.net/wp-content/uploads/2017/04/DeQuienEsLaTierra.jpg
 author: Iconoclasistas
 author_url: http://www.iconoclasistas.net/mapamundis-criticos/
 ---
