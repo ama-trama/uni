@@ -11,7 +11,7 @@ tags: [ largo, alan moore, documental]
 duration: 1h 17min
 author: Documentado
 author_url: https://documentado.com.ar/noticia/148/the-mindscape-of-alan-moore
-source: https://www.youtube.com/watch?v=VWWG5By6o3I
+source: https://www.youtube.com/embed/VWWG5By6o3I
 ---
 
 La historia de Alan Moore es extensa, decidido a no ser un dibujante sino escritor, inició su carrera a finales de los 70s. Creó guiones para las más famosas empresas de cómics como Marvel entre otras. Su carrera como escritor lo llevó a investigar sobre muchos campos en los cuales debía incursionar para destacar su trabajo y, esas investigaciones, lo llevaron también a sacar conclusiones por demás interesantes sobre la realidad de los cómics, los super héroes y la ficción en general.
