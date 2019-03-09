@@ -3,7 +3,7 @@ layout: post
 icon: youtube play
 title: ¿Y tú que sabes?
 meta: La historia ficticia sugiere en su desarrollo que la actividad de la conciencia puede incidir en la realidad física
-featured: true
+featured: false
 comments: true
 category: ciencia
 type: videoesfera
