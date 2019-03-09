@@ -5,7 +5,7 @@ title: Mapamundis criticos
 meta:  Presentamos dos planisferios que intentan brindar una mirada panorámica sobre situaciones globales, de una u otra manera invisibilizadas tanto en sus consecuencias como en sus efectos cotidianos.
 source: http://www.iconoclasistas.net/mapamundis-criticos/
 comments: true
-featured: true
+featured: false
 type: articulo
 duration: 5min
 category: contracultura
