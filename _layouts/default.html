@@ -30,7 +30,7 @@
 
 
 </head>
-<body>
+<body class="layout--default theme" data-n-head="class"> 
 
 {% include top-bar.html %}
 
@@ -69,6 +69,23 @@
 </script>
 <script src="{{ site.baseurl }}/js/owl.carousel.js"></script>
 {% include toggle-btn.html %}
+{% include dark-theme.html %}
+
+<script>
+	$('.change-theme').click(function () {
+	    $('body').toggleClass('theme--dark');
+	    if($('body').hasClass('theme--dark')){
+	        localStorage.setItem('theme', 'theme--dark');
+	    }
+	});
+
+	$(document).ready(function(){
+	    var theme = localStorage.getItem('theme');  
+	    if(theme !== ''){      
+	        $('body').addClass(theme);
+	    }
+	});
+</script>
 
 	<script src="//instant.page/1.2.0" type="module" integrity="sha384-0xWpXpkOUkAVETH+RMYJlSFIDNGlnPHgmqv2rP3uZS1BM48EMcxAZGW09n4pTGV4"></script>
 </body>

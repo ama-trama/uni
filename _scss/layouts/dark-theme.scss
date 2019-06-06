@@ -1,0 +1,161 @@
+body {
+
+}
+
+.demo__toggle {
+	width: 180px;
+	margin-right: 35px;
+	
+	fieldset {
+		border: 0 none;
+	}
+}
+
+.demo-toggle__button {
+  display: inline-block;
+  float: left;
+}
+
+.demo-toggle__button > input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.demo-toggle__button:first-child .demo-toggle__label {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.demo-toggle__button:last-child .demo-toggle__label {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.demo-toggle__button input + .demo-toggle__label {
+  display: inline-block;
+  padding: 1px 12px;
+  transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out;
+  border: 1px solid transparent;
+  background-color: #fff;
+  color: #333;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.demo-toggle__button input:checked + .demo-toggle__label {
+  background-color: #333;
+  color: #ffffff;
+}
+
+
+body.theme--dark {
+	background: #111;
+	.change-theme {
+		.fa {color: #fbbd08;}
+		.fa:before {
+		    content: "\f185";
+		}
+	}
+
+	* {
+
+	}
+	.top-bar {
+		background: #333;
+	}
+
+	nav a,
+	.sliding-panel-button {
+		color: #fff;
+	}
+
+	.logo span {
+		color: #fff;
+	}
+	.featured-container {
+		background: #333;
+	}
+	.nav-search {
+		background: transparent;
+	}
+
+	.nav-search input[type=text] {
+		color: #fff;
+	}
+
+	.home-post {
+		background: #333 !important;
+		.container{
+			background: #111 !important;
+		}
+	}
+
+	.home-post .description {
+		color: #FFF;
+	}
+
+	.trama-feminismo-consciente {
+		color: #fff;
+	}
+
+	.footer {
+		background: #111;
+	}
+
+	.footer li a {
+		color: #FFF;
+	}
+
+	.post-page{
+		background: #111;
+	}
+
+	.post p{
+		color: #FFF;
+	}
+
+	.home-post {
+		a span:after {
+			content: 'Pendiente!';
+			color: #fff;
+		}
+
+		a:visited span:after {
+			color: #555;
+			opacity: 0;
+			display: none;
+			visibility: hidden;
+			pointer-events: none;
+			cursor: default;
+		}
+	}
+
+	h1, h2, h3, h4, h5 {
+		color: #fff;
+	}
+
+	.ui.vertical.menu {
+		background: #000;
+		
+		a.item {
+			color: #FFF !important;
+		}
+	}
+
+	.category-page {
+		background: #111;
+	}
+
+	.ui.black.buttons .button,
+	.ui.black.button {
+		background: #FFF;
+		color: #111;
+	}
+	
+}
