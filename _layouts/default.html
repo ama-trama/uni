@@ -69,13 +69,15 @@
 </script>
 <script src="{{ site.baseurl }}/js/owl.carousel.js"></script>
 {% include toggle-btn.html %}
-{% include dark-theme.html %}
+
 
 <script>
 	$('.change-theme').click(function () {
 	    $('body').toggleClass('theme--dark');
 	    if($('body').hasClass('theme--dark')){
 	        localStorage.setItem('theme', 'theme--dark');
+        } else {
+        	localStorage.setItem('theme', '');
 	    }
 	});
 
